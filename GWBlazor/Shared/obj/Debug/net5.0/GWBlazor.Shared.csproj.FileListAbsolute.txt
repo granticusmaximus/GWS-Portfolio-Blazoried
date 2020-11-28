@@ -1,0 +1,12 @@
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/bin/Debug/net5.0/GWBlazor.Shared.deps.json
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/bin/Debug/net5.0/GWBlazor.Shared.dll
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/bin/Debug/net5.0/ref/GWBlazor.Shared.dll
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/bin/Debug/net5.0/GWBlazor.Shared.pdb
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/obj/Debug/net5.0/GWBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/obj/Debug/net5.0/GWBlazor.Shared.AssemblyInfoInputs.cache
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/obj/Debug/net5.0/GWBlazor.Shared.AssemblyInfo.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/obj/Debug/net5.0/GWBlazor.Shared.csproj.CoreCompileInputs.cache
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/obj/Debug/net5.0/GWBlazor.Shared.dll
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/obj/Debug/net5.0/ref/GWBlazor.Shared.dll
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/obj/Debug/net5.0/GWBlazor.Shared.pdb
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/obj/Debug/net5.0/GWBlazor.Shared.csprojAssemblyReference.cache

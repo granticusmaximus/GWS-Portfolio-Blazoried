@@ -1,0 +1,117 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+.loginHeader {
+    width: 100%;
+    color: white;
+    font-size: 1.35em;
+    display: block;
+    background-color: gray;
+    width: 100%;
+    text-transform: uppercase;
+    padding: .75em 1em .75em 1.5em;
+    border: 1px solid gray;
+    margin: 0;
+    font-weight: 200;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.loginBox {
+    width: 40%;
+    min-width: 320px;
+    max-width: 475px;
+    background: #fff;
+    position: absolute;
+    border-radius: 5px;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+    .loginBox .login-form-control {
+        display: block !important;
+        width: 100% !important;
+        height: calc(1.5em + .75rem + 2px) !important;
+        padding: .375rem .75rem !important;
+        font-size: 1rem !important;
+        font-weight: 400 !important;
+        line-height: 1.5 !important;
+        color: #495057 !important;
+        background-color: #fff !important;
+        background-clip: padding-box !important;
+        border: 1px solid #ced4da !important;
+        border-radius: 12px !important;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out !important;
+    }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.container {
+    max-width: 960px;
+}
+
+.pricing-header {
+    max-width: 700px;
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    overflow: scroll;
+    white-space: nowrap;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+}

@@ -1,0 +1,5 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/bin/Debug/net5.0/wwwroot/" />
+  <ContentRoot BasePath="/" Path="/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/obj/Debug/net5.0/scopedcss/bundle/" />
+  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="/Users/grantwatson/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/5.0.0/build/../staticwebassets/" />
+</StaticWebAssets>
