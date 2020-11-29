@@ -21,7 +21,7 @@ namespace GWBlazor.Server.Controllers
         }
 
         // GET: api/<BooksController>
-        [HttpGet("Blog")]
+        [HttpGet("GetBlog")]
         public object GetAllBlogs()
         {
             return new { Items = _context.Blogs, Count = _context.Blogs.Count() };
@@ -36,7 +36,7 @@ namespace GWBlazor.Server.Controllers
         }
 
         // PUT api/<BlohController>
-        [HttpPut]
+        [HttpPut("UpdateBlog")]
         public void UpdateBlog(long id, [FromBody] Blog blog)
         {
             Blog _blog = _context.Blogs.Where(x => x.BlogID.Equals(blog.BlogID)).FirstOrDefault();
@@ -45,7 +45,7 @@ namespace GWBlazor.Server.Controllers
         }
 
         // DELETE api/<BooksController>
-        [HttpDelete("{id}")]
+        [HttpDelete("DeleteBlog/{id}")]
         public void DeleteBlog(long id)
         {
             Blog _book = _context.Blogs.Where(x => x.BlogID.Equals(id)).FirstOrDefault();

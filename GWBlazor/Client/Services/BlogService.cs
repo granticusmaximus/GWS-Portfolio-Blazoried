@@ -19,27 +19,22 @@ namespace GWBlazor.Client.Services
         #region Blog CRUD
         public async Task<List<Blog>> GetAllBlogs()
         {
-            return await _http.GetFromJsonAsync<List<Blog>>("api/Blog");
+            return await _http.GetFromJsonAsync<List<Blog>>("api/Blog/GetBlog");
         }
 
         public Task AddBlog(Blog blog)
         {
-            throw new NotImplementedException();
+            return _http.GetFromJsonAsync<Blog>("api/Blog/AddBlog");
         }
 
         public Task UpdateBlog(Blog blog)
         {
-            throw new NotImplementedException();
-        }
-
-        public Blog GetBlogData(long id)
-        {
-            throw new NotImplementedException();
+            return _http.GetFromJsonAsync<Blog>("api/Blog/UpdateBlog");
         }
 
         public Task DeleteBlog(long id)
         {
-            throw new NotImplementedException();
+            return _http.GetFromJsonAsync<Blog>("api/Blog/DeleteBlog/{id}");
         }
         #endregion
 

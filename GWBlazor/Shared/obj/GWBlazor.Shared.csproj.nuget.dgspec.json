@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/GWBlazor.Shared.csproj": {}
+    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj": {}
   },
   "projects": {
-    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/GWBlazor.Shared.csproj": {
+    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/GWBlazor.Shared.csproj",
+        "projectUniqueName": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj",
         "projectName": "GWBlazor.Shared",
-        "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/GWBlazor.Shared.csproj",
+        "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj",
         "packagesPath": "/Users/grantwatson/.nuget/packages/",
-        "outputPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/obj/",
+        "outputPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/grantwatson/.nuget/NuGet/NuGet.Config"
+          "/Users/grantwatson/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
+          "/Users/grantwatson/Desktop/Dev/Nugs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

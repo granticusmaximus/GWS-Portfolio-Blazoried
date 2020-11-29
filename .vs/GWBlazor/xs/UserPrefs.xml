@@ -1,0 +1,41 @@
+﻿<Properties StartupConfiguration="{B92D82F4-8D70-4ED1-8F9C-A445C89B4841}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GWBlazor/Client/Pages/Blog/Index.razor">
+    <Files>
+      <File FileName="GWBlazor/Client/Pages/Blog/Blog.razor" Line="1" Column="32" />
+      <File FileName="GWBlazor/Client/Pages/Blog/Index.razor" Line="3" Column="22" />
+      <File FileName="GWBlazor/Client/Pages/Index.razor" Line="7" Column="6" />
+      <File FileName="GWBlazor/Client/Shared/SurveyPrompt.razor" Line="1" Column="1" />
+      <File FileName="GWBlazor/Server/Controllers/BlogController.cs" Line="39" Column="29" NotebookId="1" />
+      <File FileName="GWBlazor/Client/Services/BlogService.cs" Line="26" Column="10" NotebookId="1" />
+      <File FileName="GWBlazor/Server/Startup.cs" Line="38" Column="13" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="GWBlazor" expanded="True">
+            <Node name="GWBlazor.Client" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="Blog" expanded="True">
+                  <Node name="Index.razor" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Shared" expanded="True" />
+            </Node>
+            <Node name="GWBlazor.Server" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.GWBlazor.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

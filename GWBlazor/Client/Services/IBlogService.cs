@@ -12,7 +12,6 @@ namespace GWBlazor.Client.Services
         Task<List<Blog>> GetAllBlogs();
         Task AddBlog(Blog blog);
         Task UpdateBlog(Blog blog);
-        Blog GetBlogData(long id);
         Task DeleteBlog(long id);
         #endregion
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Q54seGcfFKhvxnNbEcPEIpGaDubEbAKDBoY1Fv/K7FhhCaIvuiIH9WMYX8o7MMo5qB/Dbh1B7rUTuXi85gavbA==",
+  "dgSpecHash": "EYn8+/uCt9X9p3Db6HMd7a0or/3eziOH13U/8NYA3Y/v4q0iK2iY7Ab4HgIZoG/XNaIgi8XHLpaHlsv68gY5RQ==",
   "success": true,
-  "projectFilePath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/GWBlazor.Client.csproj",
+  "projectFilePath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj",
   "expectedPackageFiles": [
     "/Users/grantwatson/.nuget/packages/microsoft.aspnetcore.authorization/5.0.0/microsoft.aspnetcore.authorization.5.0.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/microsoft.aspnetcore.components/5.0.0/microsoft.aspnetcore.components.5.0.0.nupkg.sha512",

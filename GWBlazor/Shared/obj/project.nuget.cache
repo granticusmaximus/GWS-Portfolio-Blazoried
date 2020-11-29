@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D7qbDTJvdJznYwz1KqVwwO6lBtSWJV1+hXDodXP+tnpatnvEEdgeQaecJsT7SKqQTFLUt3eh2wymL64QQJkPxA==",
+  "dgSpecHash": "Tb21zfZX8vusE2KVvHJBipZyzZFFlHfKjcylyOqDz98HSvoKNolE+LZNJu+45kut+YAdYTZ4uQajqBlWUEGU2A==",
   "success": true,
-  "projectFilePath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/GWBlazor.Shared.csproj",
+  "projectFilePath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj",
   "expectedPackageFiles": [
     "/Users/grantwatson/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.0/microsoft.aspnetcore.cryptography.internal.5.0.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/5.0.0/microsoft.aspnetcore.cryptography.keyderivation.5.0.0.nupkg.sha512",

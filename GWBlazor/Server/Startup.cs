@@ -7,6 +7,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using GWBlazor.Server.Data;
 using GWBlazor.Shared;
+using GWBlazor.Client.Services;
 
 namespace GWBlazor.Server
 {
@@ -26,18 +27,14 @@ namespace GWBlazor.Server
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
-
+            services.AddScoped<IBlogService, BlogService>();
             services.AddDatabaseDeveloperPageExceptionFilter();
-
             services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
-
             services.AddIdentityServer()
                 .AddApiAuthorization<ApplicationUser, ApplicationDbContext>();
-
             services.AddAuthentication()
                 .AddIdentityServerJwt();
-
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

@@ -9405,11 +9405,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Server/GWBlazor.Server.csproj",
+      "projectUniqueName": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/GWBlazor.Server.csproj",
       "projectName": "GWBlazor.Server",
-      "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Server/GWBlazor.Server.csproj",
+      "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/GWBlazor.Server.csproj",
       "packagesPath": "/Users/grantwatson/.nuget/packages/",
-      "outputPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Server/obj/",
+      "outputPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/grantwatson/.config/NuGet/NuGet.Config"
@@ -9425,11 +9425,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/GWBlazor.Client.csproj": {
-              "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/GWBlazor.Client.csproj"
+            "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj": {
+              "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj"
             },
-            "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/GWBlazor.Shared.csproj": {
-              "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/GWBlazor.Shared.csproj"
+            "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj": {
+              "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj"
             }
           }
         }

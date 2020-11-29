@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uqs4I9m3edYGh06KwJiQfBx6urmr2RWy4b/44ggegYq6/jrMKofSHQkg1VGxy2HmuBktka/CRZr4Uxr5ue0yaQ==",
+  "dgSpecHash": "y2u/THKdUJpE/VmyKshkptSyGF6FINLONeF6Z5wNZ0pMhILeDq9BBcurYWUoEJMCKi4InhVNdjU73Zz+w1Kpcw==",
   "success": true,
-  "projectFilePath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Server/GWBlazor.Server.csproj",
+  "projectFilePath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/GWBlazor.Server.csproj",
   "expectedPackageFiles": [
     "/Users/grantwatson/.nuget/packages/automapper/10.0.0/automapper.10.0.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",

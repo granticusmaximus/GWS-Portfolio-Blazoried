@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/GWBlazor.Client.csproj": {}
+    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj": {}
   },
   "projects": {
-    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/GWBlazor.Client.csproj": {
+    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/GWBlazor.Client.csproj",
+        "projectUniqueName": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj",
         "projectName": "GWBlazor.Client",
-        "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/GWBlazor.Client.csproj",
+        "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj",
         "packagesPath": "/Users/grantwatson/.nuget/packages/",
-        "outputPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/obj/",
+        "outputPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/grantwatson/.config/NuGet/NuGet.Config"
@@ -27,8 +27,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/GWBlazor.Shared.csproj": {
-                "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/GWBlazor.Shared.csproj"
+              "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj": {
+                "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/GWBlazor.Shared.csproj": {
+    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/GWBlazor.Shared.csproj",
+        "projectUniqueName": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj",
         "projectName": "GWBlazor.Shared",
-        "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/GWBlazor.Shared.csproj",
+        "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj",
         "packagesPath": "/Users/grantwatson/.nuget/packages/",
-        "outputPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Shared/obj/",
+        "outputPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/grantwatson/.config/NuGet/NuGet.Config"

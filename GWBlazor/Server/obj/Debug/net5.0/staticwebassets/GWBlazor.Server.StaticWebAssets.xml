@@ -1,7 +1,8 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="/Users/grantwatson/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/5.0.0/build/../staticwebassets/" />
-  <ContentRoot BasePath="/" Path="/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/bin/Debug/net5.0/wwwroot/" />
-  <ContentRoot BasePath="/" Path="/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/obj/Debug/net5.0/scopedcss/bundle/" />
-  <ContentRoot BasePath="/" Path="/Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Client/wwwroot/" />
+  <ContentRoot BasePath="/" Path="/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/" />
+  <ContentRoot BasePath="/" Path="/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/scopedcss/bundle/" />
+  <ContentRoot BasePath="/" Path="/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/wwwroot/" />
   <ContentRoot BasePath="/Identity" Path="/Users/grantwatson/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.0/build/../staticwebassets/V4/" />
+  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="/Users/grantwatson/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/5.0.0/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor" Path="/Users/grantwatson/.nuget/packages/syncfusion.blazor/18.3.0.51/build/../staticwebassets/" />
 </StaticWebAssets>
