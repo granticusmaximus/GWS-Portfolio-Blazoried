@@ -238,6 +238,7 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Server/obj/Debug/net5.0/GWBlazor.Server.genruntimeconfig.cache
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWBlazor/Server/bin/Debug/net5.0/compilerconfig.json
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/compilerconfig.json
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/GWBlazor.Client.StaticWebAssets.xml
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/appsettings.Development.json
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/appsettings.json
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/BlazorDebugProxy/BrowserDebugHost.dll
@@ -249,7 +250,6 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Pdb.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/BlazorDebugProxy/Mono.Cecil.Rocks.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/BlazorDebugProxy/Newtonsoft.Json.dll
-/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/GWBlazor.Client.StaticWebAssets.xml
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/GWBlazor.Server.StaticWebAssets.xml
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/GWBlazor.Server.deps.json
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/GWBlazor.Server.runtimeconfig.json
@@ -267,6 +267,7 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/IdentityServer4.EntityFramework.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/IdentityServer4.EntityFramework.Storage.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/IdentityServer4.Storage.dll
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/Markdig.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/Microsoft.AspNetCore.ApiAuthorization.IdentityServer.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll

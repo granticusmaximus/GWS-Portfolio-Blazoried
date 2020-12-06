@@ -96,13 +96,6 @@ using GWBlazor.Shared;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 3 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Components/PostList.razor"
-using GWBlazor.Client.Components;
-
-#line default
-#line hidden
-#nullable disable
     public partial class PostList : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -111,7 +104,7 @@ using GWBlazor.Client.Components;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Components/PostList.razor"
+#line 17 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Components/PostList.razor"
        
 
     protected List<Post> blogPosts { get; set; } = new List<Post>();

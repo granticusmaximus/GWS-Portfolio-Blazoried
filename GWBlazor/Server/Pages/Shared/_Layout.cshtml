@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="~/Identity/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/serverstilts.css" />
+    <link rel="stylesheet" href="~/plugins/summernote/summernote-bs4.css">
 </head>
 <body>
     <header>
@@ -51,6 +52,10 @@
     <script src="~/Identity/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/Identity/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/Identity/js/site.js" asp-append-version="true"></script>
+    <script src="~/plugins/summernote/summernote-bs4.min.js"></script>
+    <script>$(function () {
+            $('.textarea').summernote()
+        });</script>
     @RenderSection("Scripts", required: false)
 </body>
 </html>

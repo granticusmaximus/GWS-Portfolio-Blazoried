@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HMqYm+jqVx5xIVuv6vx3bd5yMUZUf9ZgUMzQlElpvnlfVwLzVDczBZAuXnYysPGIpXQ6r5GGfRzJG762Nck/aw==",
+  "dgSpecHash": "slihpPPBzb5dmWd36ruBTpI87DP7vwNTu4lLczOSAQe9zX5XD35oooZBFZeEAh/XD8PyT2sYpE4TibjmUzG90A==",
   "success": true,
   "projectFilePath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/GWBlazor.Server.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "/Users/grantwatson/.nuget/packages/identityserver4.entityframework/4.1.0/identityserver4.entityframework.4.1.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/identityserver4.entityframework.storage/4.1.0/identityserver4.entityframework.storage.4.1.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/identityserver4.storage/4.1.0/identityserver4.storage.4.1.0.nupkg.sha512",
+    "/Users/grantwatson/.nuget/packages/markdig/0.22.1/markdig.0.22.1.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/microsoft.aspnetcore.apiauthorization.identityserver/5.0.0/microsoft.aspnetcore.apiauthorization.identityserver.5.0.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.0/microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/microsoft.aspnetcore.authentication.openidconnect/3.1.0/microsoft.aspnetcore.authentication.openidconnect.3.1.0.nupkg.sha512",

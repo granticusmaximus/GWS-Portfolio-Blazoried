@@ -8,6 +8,8 @@ using Microsoft.Extensions.Hosting;
 using GWBlazor.Server.Data;
 using GWBlazor.Shared;
 using GWBlazor.Client.Services;
+using System.Net.Mime;
+using Microsoft.AspNetCore.ResponseCompression;
 
 namespace GWBlazor.Server
 {
@@ -27,7 +29,7 @@ namespace GWBlazor.Server
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddScoped<IBlogService, BlogService>();
+            services.AddSingleton(typeof(BlogService));
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();

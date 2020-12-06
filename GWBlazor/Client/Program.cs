@@ -17,7 +17,7 @@ namespace GWBlazor.Client
             builder.RootComponents.Add<App>("#app");
             builder.Services.AddHttpClient("GWBlazor.ServerAPI", client => client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress))
                 .AddHttpMessageHandler<BaseAddressAuthorizationMessageHandler>();
-            builder.Services.AddScoped<IBlogService, BlogService>();
+            builder.Services.AddSingleton<BlogService>();
             builder.Services.AddSyncfusionBlazor();
             // Supply HttpClient instances that include access tokens when making requests to the server project
             builder.Services.AddScoped(sp => sp.GetRequiredService<IHttpClientFactory>().CreateClient("GWBlazor.ServerAPI"));

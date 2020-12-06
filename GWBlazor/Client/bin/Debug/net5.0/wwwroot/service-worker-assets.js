@@ -489,7 +489,7 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     },
     {
-      "hash": "sha256-yF\/JacSMMWx1wJZ711r+bZsGOIu1M7\/hBfRWaSrD838=",
+      "hash": "sha256-i+VzQa25wSthuxtrIALs6CTsAs9jyxNEM5EZojVuNjQ=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1369,19 +1369,19 @@
       "url": "_framework\/dotnet.5.0.0.js"
     },
     {
-      "hash": "sha256-ZmRE9AgBQcyrmcYGKxkF6NwVe1JgPtiYs37MOZ0y8Ds=",
+      "hash": "sha256-wOXo39j1dEXgK1tzi8JVoYAYsflaiWAYPrb164\/cGfw=",
       "url": "_framework\/GWBlazor.Shared.dll"
     },
     {
-      "hash": "sha256-IqJ7TMdPHJB021FlUwag3BV78RY+8oCO\/zPzWKS908c=",
+      "hash": "sha256-ysNcOoAEBxmN8i3sJ5ShB9dEiVAuOpzmZ+jPzyqAtPg=",
       "url": "_framework\/GWBlazor.Shared.pdb"
     },
     {
-      "hash": "sha256-QXsjXO38aGKIB1o8+TW1kTqyrB75Ph6weEvaMNR1FFk=",
+      "hash": "sha256-oQPnR1iELS\/sV\/pQeqhI2gK8wnzU4YMBw3zk8qflTFc=",
       "url": "_framework\/GWBlazor.Client.dll"
     },
     {
-      "hash": "sha256-CDNok4JCtW0CAysMZ2CkJoK0uPlErhn4H9iKgAvrrwc=",
+      "hash": "sha256-lGwdLl4t07SLozfnjNqVUp4GJfKfXDVY3zsg2dbWTaM=",
       "url": "_framework\/GWBlazor.Client.pdb"
     },
     {
@@ -2265,7 +2265,7 @@
       "url": "_framework\/dotnet.5.0.0.js.gz"
     },
     {
-      "hash": "sha256-WBrmly7RU+msSFNUkq2\/MtHUn3F6Oxv8QX4PXRAltog=",
+      "hash": "sha256-\/MHyoyApvf+TesOF5mdDy5b9eMUSAr51Srizr31iRBM=",
       "url": "_framework\/GWBlazor.Shared.dll.gz"
     },
     {
@@ -2325,7 +2325,7 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-qEqCDOKoXsdI1oAxJLDI1nerbocezJkm5ryQJWRIm0Q=",
+      "hash": "sha256-sk8gNwcNm1UXaF3SP5uK2YnhAyPUpIzCQsrVBggFM\/I=",
       "url": "index.html"
     },
     {
@@ -2341,5 +2341,5 @@
       "url": "GWBlazor.Client.bundle.scp.css"
     }
   ],
-  "version": "cDq4zjtv"
+  "version": "leDjR9WQ"
 };

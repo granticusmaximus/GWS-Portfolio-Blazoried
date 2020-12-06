@@ -14,7 +14,6 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/bin/Debug/net5.0/GWBlazor.Shared.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/bin/Debug/net5.0/ref/GWBlazor.Shared.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/bin/Debug/net5.0/GWBlazor.Shared.pdb
-/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/obj/Debug/net5.0/GWBlazor.Shared.csprojAssemblyReference.cache
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/obj/Debug/net5.0/GWBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/obj/Debug/net5.0/GWBlazor.Shared.AssemblyInfoInputs.cache
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/obj/Debug/net5.0/GWBlazor.Shared.AssemblyInfo.cs

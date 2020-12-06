@@ -1,10 +1,9 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
-using GWBlazor.Server.Data;
 using GWBlazor.Shared;
-using Microsoft.AspNetCore.Mvc;
+using GWBlazor.Client.Services;
 
 // For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -14,64 +13,24 @@ namespace GWBlazor.Server.Controllers
     [ApiController]
     public class BlogController : ControllerBase
     {
-        private ApplicationDbContext _context;
-        public BlogController(ApplicationDbContext context)
+        private readonly BlogService _blogService;
+
+        public BlogController(BlogService blogService)
         {
-            _context = context;
+            _blogService = blogService;
         }
 
-        #region TestBlogs
-        private List<Post> _blogPosts { get; set; } = new List<Post> {
-            new Post {
-                PostID = 1,
-                Title = "If only C# worked in the browser",
-                Content = "Lorem ipsum dolor sit amet...",
-                Author = "Joe Bloggs",
-                Posted = DateTime.Now.AddDays(-30)
-            },
-            new Post {
-                PostID = 2,
-                Title = "400th JS Framework released",
-                Content = "Lorem ipsum dolor sit amet...",
-                Author = "Joe Bloggs",
-                Posted = DateTime.Now.AddDays(-25)
-            },
-            new Post {
-                PostID = 3,
-                Title = "WebAssembly FTW",
-                Content = "Lorem ipsum dolor sit amet...",
-                Author = "Joe Bloggs",
-                Posted = DateTime.Now.AddDays(-20)
-            },
-            new Post {
-                PostID = 4,
-                Title = "Blazor is Awesome!",
-                Content = "Lorem ipsum dolor sit amet...",
-                Author = "Joe Bloggs",
-                Posted = DateTime.Now.AddDays(-15)
-            },
-            new Post {
-                PostID = 5,
-                Title = "Your first Blazor App",
-                Content = "Lorem ipsum dolor sit amet...",
-                Author = "Joe Bloggs",
-                Posted = DateTime.Now.AddDays(-10)
-            },
-        };
-        #endregion
 
-
-        // GET: api/<BooksController>
         [HttpGet(Urls.BlogPosts)]
-        public IActionResult BlogPosts()
+        public IActionResult GetBlogPosts()
         {
-            return Ok(_blogPosts);
+            return Ok(_blogService.GetBlogPosts());
         }
 
         [HttpGet(Urls.BlogPost)]
         public IActionResult GetBlogPostById(int id)
         {
-            var blogPost = _blogPosts.SingleOrDefault(x => x.PostID == id);
+            var blogPost = _blogService.GetBlogPost(id);
 
             if (blogPost == null)
                 return NotFound();
@@ -79,30 +38,12 @@ namespace GWBlazor.Server.Controllers
             return Ok(blogPost);
         }
 
-        // POST api/<BlogController>
-        [HttpPost(Urls.AddPost)]
-        public void AddPost([FromBody] Post post)
+        [HttpPost(Urls.AddBlogPost)]
+        public IActionResult AddBlogPost([FromBody] Post newBlogPost)
         {
-            _context.Posts.Add(post);
-            _context.SaveChanges();
-        }
+            var savedBlogPost = _blogService.AddBlogPost(newBlogPost);
 
-        // PUT api/<BlohController>
-        [HttpPut(Urls.UpdatePost)]
-        public void UpdatePost(long id, [FromBody] Post post)
-        {
-            Post _post = _context.Posts.Where(x => x.PostID.Equals(post.PostID)).FirstOrDefault();
-            _post.Title = post.Title;
-            _context.SaveChanges();
-        }
-
-        // DELETE api/<BooksController>
-        [HttpDelete(Urls.DeletePost)]
-        public void DeletePost(long id)
-        {
-            Post _post = _context.Posts.Where(x => x.PostID.Equals(id)).FirstOrDefault();
-            _context.Posts.Remove(_post);
-            _context.SaveChanges();
+            return Created(new Uri(Urls.BlogPost.Replace("{id}", savedBlogPost.PostID.ToString()), UriKind.Relative), savedBlogPost);
         }
     }
 }

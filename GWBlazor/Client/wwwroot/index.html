@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -11,6 +11,7 @@
     <link href="GWBlazor.Client.styles.css" rel="stylesheet" />
     <link href="manifest.json" rel="manifest" />
     <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="stylesheet" href="~/plugins/summernote/summernote-bs4.css">
 </head>
 
 <body>
@@ -23,6 +24,11 @@
     </div>
     <script src="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication/AuthenticationService.js"></script>
     <script src="_framework/blazor.webassembly.js"></script>
+    <script src="js/site.js"></script>
+    <script src="~/plugins/summernote/summernote-bs4.min.js"></script>
+    <script>$(function () {
+            $('.textarea').summernote()
+        });</script>
     <script>navigator.serviceWorker.register('service-worker.js');</script>
 </body>
 
