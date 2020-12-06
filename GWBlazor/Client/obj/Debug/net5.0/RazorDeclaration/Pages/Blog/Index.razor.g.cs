@@ -89,7 +89,21 @@ using GWBlazor.Client.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/Blog/Index")]
+#nullable restore
+#line 2 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Pages/Blog/Index.razor"
+using GWBlazor.Client.Services;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Pages/Blog/Index.razor"
+using GWBlazor.Client.Components;
+
+#line default
+#line hidden
+#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/Blog")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -97,6 +111,7 @@ using GWBlazor.Client.Shared;
         {
         }
         #pragma warning restore 1998
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IBlogService service { get; set; }
     }
 }
 #pragma warning restore 1591

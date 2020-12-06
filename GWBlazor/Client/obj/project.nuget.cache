@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EYn8+/uCt9X9p3Db6HMd7a0or/3eziOH13U/8NYA3Y/v4q0iK2iY7Ab4HgIZoG/XNaIgi8XHLpaHlsv68gY5RQ==",
+  "dgSpecHash": "uKr8C9TZbUN95m91+wu4T/8879vk1rEkfRB7H2/LPUqZhFk6ZQD24ibNho/mXLSxwrUwWU1bh/k0HR51C6dFEA==",
   "success": true,
   "projectFilePath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj",
   "expectedPackageFiles": [
@@ -52,10 +52,10 @@
     "/Users/grantwatson/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/newtonsoft.json/12.0.1/newtonsoft.json.12.0.1.nupkg.sha512",
-    "/Users/grantwatson/.nuget/packages/syncfusion.blazor/18.3.0.51/syncfusion.blazor.18.3.0.51.nupkg.sha512",
-    "/Users/grantwatson/.nuget/packages/syncfusion.excelexport.net.core/18.3.0.51/syncfusion.excelexport.net.core.18.3.0.51.nupkg.sha512",
-    "/Users/grantwatson/.nuget/packages/syncfusion.licensing/18.3.0.51/syncfusion.licensing.18.3.0.51.nupkg.sha512",
-    "/Users/grantwatson/.nuget/packages/syncfusion.pdfexport.net.core/18.3.0.51/syncfusion.pdfexport.net.core.18.3.0.51.nupkg.sha512",
+    "/Users/grantwatson/.nuget/packages/syncfusion.blazor/18.3.0.52/syncfusion.blazor.18.3.0.52.nupkg.sha512",
+    "/Users/grantwatson/.nuget/packages/syncfusion.excelexport.net.core/18.3.0.52/syncfusion.excelexport.net.core.18.3.0.52.nupkg.sha512",
+    "/Users/grantwatson/.nuget/packages/syncfusion.licensing/18.3.0.52/syncfusion.licensing.18.3.0.52.nupkg.sha512",
+    "/Users/grantwatson/.nuget/packages/syncfusion.pdfexport.net.core/18.3.0.52/syncfusion.pdfexport.net.core.18.3.0.52.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",

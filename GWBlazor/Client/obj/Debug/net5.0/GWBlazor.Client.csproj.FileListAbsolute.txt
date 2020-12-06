@@ -1409,5 +1409,13 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/GWBlazor.Client.pdb
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/serviceworkers/wwwroot/service-worker.js
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/service-worker-assets.js
-/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Blog/AddBlog.razor.g.cs
-/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Pages/Blog/AddBlog.razor.g.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/RazorDeclaration/Components/AddBlog.razor.g.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Components/AddBlog.razor.g.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/RazorDeclaration/Components/PostList.razor.g.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/RazorDeclaration/Components/PostPreview.razor.g.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Components/PostList.razor.g.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Components/PostPreview.razor.g.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/RazorDeclaration/Components/Header.razor.g.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Blog/ViewPost.razor.g.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Components/Header.razor.g.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Pages/Blog/ViewPost.razor.g.cs

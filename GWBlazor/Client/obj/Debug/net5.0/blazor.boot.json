@@ -49,10 +49,10 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-5AkXTXHIeXryrSr97JWjBrndsRjoslMVJ8e7FqupHUw=",
       "Microsoft.Net.Http.Headers.dll": "sha256-P66ftDrXwc6ayND8uYzIk0CPQy1GjNZAPHx9RMhi3V4=",
       "Newtonsoft.Json.dll": "sha256-BPeXAMTZKR8pJ7LpQA8+w4soJFGV1TLt2PPpnmpBUeE=",
-      "Syncfusion.Blazor.dll": "sha256-fFPPzwZNPi3ToA5GdApZBoD1oU8f0k540EOkK9dYK4I=",
-      "Syncfusion.ExcelExport.Net.dll": "sha256-beUpkwO6ojlc9\/xvEOvPajCMmpZCK+78P4OOuAMVMMc=",
-      "Syncfusion.Licensing.dll": "sha256-Oujt7I6+qgBkELZHoSQgg1udWrD9JwdUSZxZOSggH3s=",
-      "Syncfusion.PdfExport.Net.dll": "sha256-WLM6AWrfa6RyyOH2CyRYq8sw7coysidwpE9SZxp9qvg=",
+      "Syncfusion.Blazor.dll": "sha256-dtabzn6uYHC\/DiMOn2a1Ojok\/c+wkjbydlk8qv4nzqs=",
+      "Syncfusion.ExcelExport.Net.dll": "sha256-91SrhOs7rwiEY0v58oXdA869ajPvg32t86lE\/2TzzdM=",
+      "Syncfusion.Licensing.dll": "sha256-JCNWJokPQEEmcGG2evIcEbLbbpn0qmfYdkTjR0Y8F4c=",
+      "Syncfusion.PdfExport.Net.dll": "sha256-pnUVSVUV1ogQD7QE6NiWOpzjP\/un2mXCu3HAkYTqvwg=",
       "System.IO.Pipelines.dll": "sha256-qj+ITVhmJUAkSBctDayU4uUjNTKdXqAbF2zAxo7\/mkM=",
       "Microsoft.CSharp.dll": "sha256-pro72EdtT0dffSKHvmvZ6KMWjRqZK9iKsN+T6OaX\/WM=",
       "Microsoft.VisualBasic.Core.dll": "sha256-yqKfbt+FMK3YQWz8QzHuAFqxIxN5MxOW+R11ltXmIKE=",
@@ -219,12 +219,12 @@
       "mscorlib.dll": "sha256-i0zXLOX1XZekwNvRdQK9WDvRWKFggLp7KDCnvMrn+HQ=",
       "netstandard.dll": "sha256-4QNBIB4DMwj82CYd96oFrTh3fcrmyaDjtQ2dBTyWz7Q=",
       "System.Private.CoreLib.dll": "sha256-5Zk+rN+j5FbFEQJdT8YR2O0i6KWpvrERsaPZCv69DmI=",
-      "GWBlazor.Shared.dll": "sha256-Ok0Qjmqy7vf+6aewGPKb4ydCtZvFiGRvcLcESEi4zB0=",
-      "GWBlazor.Client.dll": "sha256-c7USt2rgnHumGn\/nyJ\/MsNvj3uufCAwmHlYxzbU7WEc="
+      "GWBlazor.Shared.dll": "sha256-ZmRE9AgBQcyrmcYGKxkF6NwVe1JgPtiYs37MOZ0y8Ds=",
+      "GWBlazor.Client.dll": "sha256-QXsjXO38aGKIB1o8+TW1kTqyrB75Ph6weEvaMNR1FFk="
     },
     "lazyAssembly": null,
     "pdb": {
-      "GWBlazor.Client.pdb": "sha256-Lkis91DGQ1ux3xjiLyrijJ9ktRQYhInth\/Wg0VKxYVA="
+      "GWBlazor.Client.pdb": "sha256-CDNok4JCtW0CAysMZ2CkJoK0uPlErhn4H9iKgAvrrwc="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-2ldEe2K8ARFKSIBsv+Hr3iNQzq9qh1H\/dwdu2r+AIyY=",

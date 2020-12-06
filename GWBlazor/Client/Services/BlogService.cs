@@ -1,99 +1,34 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Net.Http.Json;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Linq;
 using GWBlazor.Shared;
 
 namespace GWBlazor.Client.Services
 {
-    public class BlogService : IBlogService
+    public class BlogService
     {
-        private readonly HttpClient _http;
-        public BlogService(HttpClient http)
+        private List<Post> _blogPosts;
+
+        public BlogService()
         {
-            _http = http;
+            _blogPosts = new List<Post>();
         }
 
-        #region Blog CRUD
-        public async Task<List<Blog>> GetAllBlogs()
+        public List<Post> GetBlogPosts()
         {
-            return await _http.GetFromJsonAsync<List<Blog>>("api/Blog/GetBlog");
+            return _blogPosts;
         }
 
-        public Task AddBlog(Blog blog)
+        public Post GetBlogPost(int id)
         {
-            return _http.GetFromJsonAsync<Blog>("api/Blog/AddBlog");
+            return _blogPosts.SingleOrDefault(x => x.PostID == id);
         }
 
-        public Task UpdateBlog(Blog blog)
+        public Post AddBlogPost(Post newBlogPost)
         {
-            return _http.GetFromJsonAsync<Blog>("api/Blog/UpdateBlog");
+            newBlogPost.PostID = _blogPosts.Count + 1;
+            _blogPosts.Add(newBlogPost);
+
+            return newBlogPost;
         }
-
-        public Task DeleteBlog(long id)
-        {
-            return _http.GetFromJsonAsync<Blog>("api/Blog/DeleteBlog/{id}");
-        }
-        #endregion
-
-
-        /*
-        #region Post CRUD
-        public IEnumerable GetAllPosts()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void AddPost(Post post)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void UpdatePost(Post post)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Blog GetPostData(long id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DeletePost(long id)
-        {
-            throw new NotImplementedException();
-        }
-
-        #endregion
-
-        #region Comment CRUD
-        public IEnumerable GetAllComments()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void AddComment(Comment blog)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void UpdateComment(Comment blog)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Blog GetCommentData(long id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void DeleteComment(long id)
-        {
-            throw new NotImplementedException();
-        }
-        #endregion
-        */
     }
 }

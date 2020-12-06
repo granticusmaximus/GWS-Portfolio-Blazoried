@@ -20,36 +20,88 @@ namespace GWBlazor.Server.Controllers
             _context = context;
         }
 
+        #region TestBlogs
+        private List<Post> _blogPosts { get; set; } = new List<Post> {
+            new Post {
+                PostID = 1,
+                Title = "If only C# worked in the browser",
+                Content = "Lorem ipsum dolor sit amet...",
+                Author = "Joe Bloggs",
+                Posted = DateTime.Now.AddDays(-30)
+            },
+            new Post {
+                PostID = 2,
+                Title = "400th JS Framework released",
+                Content = "Lorem ipsum dolor sit amet...",
+                Author = "Joe Bloggs",
+                Posted = DateTime.Now.AddDays(-25)
+            },
+            new Post {
+                PostID = 3,
+                Title = "WebAssembly FTW",
+                Content = "Lorem ipsum dolor sit amet...",
+                Author = "Joe Bloggs",
+                Posted = DateTime.Now.AddDays(-20)
+            },
+            new Post {
+                PostID = 4,
+                Title = "Blazor is Awesome!",
+                Content = "Lorem ipsum dolor sit amet...",
+                Author = "Joe Bloggs",
+                Posted = DateTime.Now.AddDays(-15)
+            },
+            new Post {
+                PostID = 5,
+                Title = "Your first Blazor App",
+                Content = "Lorem ipsum dolor sit amet...",
+                Author = "Joe Bloggs",
+                Posted = DateTime.Now.AddDays(-10)
+            },
+        };
+        #endregion
+
+
         // GET: api/<BooksController>
-        [HttpGet("GetBlog")]
-        public object GetAllBlogs()
+        [HttpGet(Urls.BlogPosts)]
+        public IActionResult BlogPosts()
         {
-            return new { Items = _context.Blogs, Count = _context.Blogs.Count() };
+            return Ok(_blogPosts);
+        }
+
+        [HttpGet(Urls.BlogPost)]
+        public IActionResult GetBlogPostById(int id)
+        {
+            var blogPost = _blogPosts.SingleOrDefault(x => x.PostID == id);
+
+            if (blogPost == null)
+                return NotFound();
+
+            return Ok(blogPost);
         }
 
         // POST api/<BlogController>
-        [HttpPost("AddBlog")]
-        public void AddBlog([FromBody] Blog blog)
+        [HttpPost(Urls.AddPost)]
+        public void AddPost([FromBody] Post post)
         {
-            _context.Blogs.Add(blog);
+            _context.Posts.Add(post);
             _context.SaveChanges();
         }
 
         // PUT api/<BlohController>
-        [HttpPut("UpdateBlog")]
-        public void UpdateBlog(long id, [FromBody] Blog blog)
+        [HttpPut(Urls.UpdatePost)]
+        public void UpdatePost(long id, [FromBody] Post post)
         {
-            Blog _blog = _context.Blogs.Where(x => x.BlogID.Equals(blog.BlogID)).FirstOrDefault();
-            _blog.Title = blog.Title;
+            Post _post = _context.Posts.Where(x => x.PostID.Equals(post.PostID)).FirstOrDefault();
+            _post.Title = post.Title;
             _context.SaveChanges();
         }
 
         // DELETE api/<BooksController>
-        [HttpDelete("DeleteBlog/{id}")]
-        public void DeleteBlog(long id)
+        [HttpDelete(Urls.DeletePost)]
+        public void DeletePost(long id)
         {
-            Blog _book = _context.Blogs.Where(x => x.BlogID.Equals(id)).FirstOrDefault();
-            _context.Blogs.Remove(_book);
+            Post _post = _context.Posts.Where(x => x.PostID.Equals(id)).FirstOrDefault();
+            _context.Posts.Remove(_post);
             _context.SaveChanges();
         }
     }

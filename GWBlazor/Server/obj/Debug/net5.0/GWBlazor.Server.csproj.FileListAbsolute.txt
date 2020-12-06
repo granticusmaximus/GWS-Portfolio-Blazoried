@@ -251,7 +251,6 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/BlazorDebugProxy/Newtonsoft.Json.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/GWBlazor.Client.StaticWebAssets.xml
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/GWBlazor.Server.StaticWebAssets.xml
-/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/app.db
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/GWBlazor.Server.deps.json
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/GWBlazor.Server.runtimeconfig.json
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/bin/Debug/net5.0/GWBlazor.Server.runtimeconfig.dev.json

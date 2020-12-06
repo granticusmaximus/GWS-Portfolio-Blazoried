@@ -1,0 +1,21 @@
+﻿@using GWBlazor.Shared
+
+<div class="post-preview">
+    <NavLink href="@($"viewpost/{post.PostID}")">
+        <h2 class="post-title">
+            @post.Title
+        </h2>
+        <h3 class="post-subtitle">
+            @post.PostSummary
+        </h3>
+    </NavLink>
+    <p class="post-meta">
+        Posted by
+        <NavLink href="/">@post.Author</NavLink>
+        on @post.Posted
+    </p>
+</div>
+
+@code {
+    [Parameter] public Post post { get; set; }
+}

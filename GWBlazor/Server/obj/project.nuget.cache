@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "y2u/THKdUJpE/VmyKshkptSyGF6FINLONeF6Z5wNZ0pMhILeDq9BBcurYWUoEJMCKi4InhVNdjU73Zz+w1Kpcw==",
+  "dgSpecHash": "HMqYm+jqVx5xIVuv6vx3bd5yMUZUf9ZgUMzQlElpvnlfVwLzVDczBZAuXnYysPGIpXQ6r5GGfRzJG762Nck/aw==",
   "success": true,
   "projectFilePath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Server/GWBlazor.Server.csproj",
   "expectedPackageFiles": [
@@ -109,10 +109,10 @@
     "/Users/grantwatson/.nuget/packages/sqlitepclraw.core/2.0.4/sqlitepclraw.core.2.0.4.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.0.4/sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/sqlitepclraw.provider.dynamic_cdecl/2.0.4/sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
-    "/Users/grantwatson/.nuget/packages/syncfusion.blazor/18.3.0.51/syncfusion.blazor.18.3.0.51.nupkg.sha512",
-    "/Users/grantwatson/.nuget/packages/syncfusion.excelexport.net.core/18.3.0.51/syncfusion.excelexport.net.core.18.3.0.51.nupkg.sha512",
-    "/Users/grantwatson/.nuget/packages/syncfusion.licensing/18.3.0.51/syncfusion.licensing.18.3.0.51.nupkg.sha512",
-    "/Users/grantwatson/.nuget/packages/syncfusion.pdfexport.net.core/18.3.0.51/syncfusion.pdfexport.net.core.18.3.0.51.nupkg.sha512",
+    "/Users/grantwatson/.nuget/packages/syncfusion.blazor/18.3.0.52/syncfusion.blazor.18.3.0.52.nupkg.sha512",
+    "/Users/grantwatson/.nuget/packages/syncfusion.excelexport.net.core/18.3.0.52/syncfusion.excelexport.net.core.18.3.0.52.nupkg.sha512",
+    "/Users/grantwatson/.nuget/packages/syncfusion.licensing/18.3.0.52/syncfusion.licensing.18.3.0.52.nupkg.sha512",
+    "/Users/grantwatson/.nuget/packages/syncfusion.pdfexport.net.core/18.3.0.52/syncfusion.pdfexport.net.core.18.3.0.52.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/system.buffers/4.5.0/system.buffers.4.5.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/system.collections/4.3.0/system.collections.4.3.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/system.collections.concurrent/4.3.0/system.collections.concurrent.4.3.0.nupkg.sha512",

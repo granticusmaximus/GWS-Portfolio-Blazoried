@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
-namespace GWBlazor.Server.Data.Migrations
+namespace GWBlazor.Server.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -86,20 +86,6 @@ namespace GWBlazor.Server.Data.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("GWBlazor.Shared.Blog", b =>
-                {
-                    b.Property<int>("BlogID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Title")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("BlogID");
-
-                    b.ToTable("Blogs");
-                });
-
             modelBuilder.Entity("GWBlazor.Shared.Comment", b =>
                 {
                     b.Property<int>("CommentID")
@@ -125,16 +111,16 @@ namespace GWBlazor.Server.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("BlogID")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("Author")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Content")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime>("DatePosted")
+                    b.Property<DateTime?>("DateUpdated")
                         .HasColumnType("TEXT");
 
-                    b.Property<DateTime?>("DateUpdated")
+                    b.Property<DateTime>("Posted")
                         .HasColumnType("TEXT");
 
                     b.Property<string>("Slug")
@@ -144,8 +130,6 @@ namespace GWBlazor.Server.Data.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("PostID");
-
-                    b.HasIndex("BlogID");
 
                     b.ToTable("Posts");
                 });
@@ -396,17 +380,6 @@ namespace GWBlazor.Server.Data.Migrations
                     b.Navigation("Post");
                 });
 
-            modelBuilder.Entity("GWBlazor.Shared.Post", b =>
-                {
-                    b.HasOne("GWBlazor.Shared.Blog", "Blog")
-                        .WithMany("Posts")
-                        .HasForeignKey("BlogID")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Blog");
-                });
-
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
                 {
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityRole", null)
@@ -456,11 +429,6 @@ namespace GWBlazor.Server.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("GWBlazor.Shared.Blog", b =>
-                {
-                    b.Navigation("Posts");
                 });
 
             modelBuilder.Entity("GWBlazor.Shared.Post", b =>

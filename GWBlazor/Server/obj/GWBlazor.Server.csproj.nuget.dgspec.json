@@ -43,6 +43,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -62,7 +66,7 @@
             },
             "Syncfusion.Blazor": {
               "target": "Package",
-              "version": "[18.3.0.51, )"
+              "version": "[18.3.0.52, )"
             },
             "System.Net.Http.Json": {
               "target": "Package",

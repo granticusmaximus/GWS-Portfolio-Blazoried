@@ -17,10 +17,6 @@ namespace GWBlazor.Server.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Post>()
-                .HasOne(p => p.Blog)
-                .WithMany(b => b.Posts);
-
             modelBuilder.Entity<Comment>()
                 .HasOne(p => p.Post)
                 .WithMany(b => b.Comments);
@@ -28,7 +24,6 @@ namespace GWBlazor.Server.Data
 
 
         public DbSet<ApplicationUser> AppUser { get; set; }
-        public DbSet<Blog> Blogs { get; set; }
         public DbSet<Post> Posts { get; set; }
         public DbSet<Comment> Comments { get; set; }
     }

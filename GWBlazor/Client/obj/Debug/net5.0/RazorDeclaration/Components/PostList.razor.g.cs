@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace GWBlazor.Client.Pages.Blog
+namespace GWBlazor.Client.Components
 {
     #line hidden
     using System;
@@ -90,13 +90,20 @@ using GWBlazor.Client.Shared;
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Pages/Blog/AddBlog.razor"
-using GWBlazor.Client.Services;
+#line 2 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Components/PostList.razor"
+using GWBlazor.Shared;
 
 #line default
 #line hidden
 #nullable disable
-    public partial class AddBlog : Microsoft.AspNetCore.Components.ComponentBase
+#nullable restore
+#line 3 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Components/PostList.razor"
+using GWBlazor.Client.Components;
+
+#line default
+#line hidden
+#nullable disable
+    public partial class PostList : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -104,29 +111,26 @@ using GWBlazor.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 27 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Pages/Blog/AddBlog.razor"
+#line 18 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Components/PostList.razor"
        
 
-    List<GWBlazor.Shared.Blog> Blogs;
-    GWBlazor.Shared.Blog blog;
+    protected List<Post> blogPosts { get; set; } = new List<Post>();
 
-
-    protected async Task CreateBlog()
+    protected async Task OnInitAsync()
     {
-        Blogs = await service.GetAllBlogs();
+        await LoadBlogPosts();
     }
 
-    void cancel()
+    private async Task LoadBlogPosts()
     {
-        navigation.NavigateTo("/Blog/Index");
+        var blogPostsResponse = await _httpClient.GetFromJsonAsync<List<Post>>(Urls.BlogPosts);
+        blogPosts = blogPostsResponse.OrderByDescending(p => p.Posted).ToList();
     }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private Microsoft.AspNetCore.Components.NavigationManager navigation { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient Http { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private IBlogService service { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient _httpClient { get; set; }
     }
 }
 #pragma warning restore 1591

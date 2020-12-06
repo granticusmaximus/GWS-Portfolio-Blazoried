@@ -1,0 +1,35 @@
+﻿@page "/viewpost/{postId}"
+@inject HttpClient _httpClient
+@using GWBlazor.Client.Components
+@using GWBlazor.Shared
+@layout MainLayout
+
+<Header Heading="GWS Articles" SubHeading="Built with Blazor"></Header>
+
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                @BlogPost.Content
+            </div>
+        </div>
+    </div>
+</article>
+
+@code{
+
+
+    [Parameter] public string PostId { get; set; }
+
+    protected Post BlogPost { get; set; } = new Post();
+
+    protected async Task OnInitAsync()
+    {
+        await LoadBlogPost();
+    }
+
+    private async Task LoadBlogPost()
+    {
+        BlogPost = await _httpClient.GetFromJsonAsync<Post>(Urls.BlogPost.Replace("{id}", PostId));
+    }
+}
