@@ -106,7 +106,7 @@ using GWBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 22 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Components/AddPost.razor"
+#line 23 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Components/AddPost.razor"
        
 
     protected string Post { get; set; }

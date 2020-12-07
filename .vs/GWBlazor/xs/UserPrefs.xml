@@ -1,24 +1,29 @@
 ﻿<Properties StartupConfiguration="{B92D82F4-8D70-4ED1-8F9C-A445C89B4841}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GWBlazor/Client/Components/AddPost.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GWBlazor/Server/Program.cs">
     <Files>
       <File FileName="GWBlazor/Shared/URLs.cs" Line="7" Column="59" />
       <File FileName="GWBlazor/Server/Controllers/BlogController.cs" Line="26" Column="10" />
-      <File FileName="GWBlazor/Client/Components/AddPost.razor" Line="39" Column="67" />
+      <File FileName="GWBlazor/Client/Components/AddPost.razor" Line="15" Column="158" />
       <File FileName="GWBlazor/Client/Components/PostList.razor" Line="3" Column="1" />
+      <File FileName="GWBlazor/Client/wwwroot/index.html" Line="7" Column="15" />
+      <File FileName="../../../../../../usr/local/share/dotnet/sdk/5.0.100/Sdks/Microsoft.NET.Sdk.Razor/build/netstandard2.0/Microsoft.NET.Sdk.Razor.StaticWebAssets.targets" Line="208" Column="5" />
+      <File FileName="GWBlazor/Server/Program.cs" Line="16" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GWBlazor" expanded="True">
             <Node name="GWBlazor.Client" expanded="True">
-              <Node name="Components" expanded="True">
-                <Node name="AddPost.razor" selected="True" />
-              </Node>
+              <Node name="Components" expanded="True" />
               <Node name="Pages" expanded="True">
                 <Node name="Blog" expanded="True" />
               </Node>
               <Node name="Shared" expanded="True" />
-              <Node name="wwwroot" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="plugins" expanded="True">
+                  <Node name="summernote" expanded="True" />
+                </Node>
+              </Node>
             </Node>
             <Node name="GWBlazor.Server" expanded="True">
               <Node name="Controllers" expanded="True" />
@@ -26,7 +31,10 @@
               <Node name="Pages" expanded="True">
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="plugins" expanded="True" />
+              </Node>
+              <Node name="Program.cs" selected="True" />
             </Node>
             <Node name="GWBlazor.Shared" expanded="True" />
           </Node>

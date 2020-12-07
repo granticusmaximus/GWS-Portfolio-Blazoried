@@ -220,11 +220,11 @@
       "netstandard.dll": "sha256-4QNBIB4DMwj82CYd96oFrTh3fcrmyaDjtQ2dBTyWz7Q=",
       "System.Private.CoreLib.dll": "sha256-5Zk+rN+j5FbFEQJdT8YR2O0i6KWpvrERsaPZCv69DmI=",
       "GWBlazor.Shared.dll": "sha256-wOXo39j1dEXgK1tzi8JVoYAYsflaiWAYPrb164\/cGfw=",
-      "GWBlazor.Client.dll": "sha256-oQPnR1iELS\/sV\/pQeqhI2gK8wnzU4YMBw3zk8qflTFc="
+      "GWBlazor.Client.dll": "sha256-vj6tSu\/xzXe2xu\/XVP5INqGyl2hkq7AZ3QFSmYk9e78="
     },
     "lazyAssembly": null,
     "pdb": {
-      "GWBlazor.Client.pdb": "sha256-lGwdLl4t07SLozfnjNqVUp4GJfKfXDVY3zsg2dbWTaM="
+      "GWBlazor.Client.pdb": "sha256-5tqwWG2ZMKXxiwV+WBzKLMe52X4zwH0CqgFQRkZIlu4="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-2ldEe2K8ARFKSIBsv+Hr3iNQzq9qh1H\/dwdu2r+AIyY=",

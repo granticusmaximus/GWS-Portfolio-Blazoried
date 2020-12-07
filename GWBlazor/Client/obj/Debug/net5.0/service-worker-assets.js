@@ -489,7 +489,7 @@
       "url": "_content\/Microsoft.AspNetCore.Components.WebAssembly.Authentication\/AuthenticationService.js"
     },
     {
-      "hash": "sha256-i+VzQa25wSthuxtrIALs6CTsAs9jyxNEM5EZojVuNjQ=",
+      "hash": "sha256-llixhFMYxb7q4oqKeNLGVv4Ld1NHL6LareGwID8OGj4=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1377,11 +1377,11 @@
       "url": "_framework\/GWBlazor.Shared.pdb"
     },
     {
-      "hash": "sha256-oQPnR1iELS\/sV\/pQeqhI2gK8wnzU4YMBw3zk8qflTFc=",
+      "hash": "sha256-vj6tSu\/xzXe2xu\/XVP5INqGyl2hkq7AZ3QFSmYk9e78=",
       "url": "_framework\/GWBlazor.Client.dll"
     },
     {
-      "hash": "sha256-lGwdLl4t07SLozfnjNqVUp4GJfKfXDVY3zsg2dbWTaM=",
+      "hash": "sha256-5tqwWG2ZMKXxiwV+WBzKLMe52X4zwH0CqgFQRkZIlu4=",
       "url": "_framework\/GWBlazor.Client.pdb"
     },
     {
@@ -2269,6 +2269,10 @@
       "url": "_framework\/GWBlazor.Shared.dll.gz"
     },
     {
+      "hash": "sha256-fpu8upcRMWU0NFnVkJpkur5l81NI3m\/Ao+un5CNuaC8=",
+      "url": ".DS_Store"
+    },
+    {
       "hash": "sha256-df1hcUnUMo8WR\/IKpTkVLIH0xCNknaX2BuHijgIaymE=",
       "url": "css\/app.css"
     },
@@ -2325,12 +2329,744 @@
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-sk8gNwcNm1UXaF3SP5uK2YnhAyPUpIzCQsrVBggFM\/I=",
+      "hash": "sha256-Qp4b3kIcIBUcJTJtCFVebdNwxmYCulh2UjuiSV4tlOc=",
       "url": "index.html"
     },
     {
       "hash": "sha256-1fRho5ABZi63QqiCpn8tDDq1WtfHGPWNTAtd9omk1Fw=",
       "url": "manifest.json"
+    },
+    {
+      "hash": "sha256-0mp8xWTC\/IQdeoq3SsYd\/Q5JAmza7J6iJ5W+5bQ+uok=",
+      "url": "plugins\/.DS_Store"
+    },
+    {
+      "hash": "sha256-x7pNnHbbTJX6wEv7ElNtQhn8oZZiNeipGjXkAAV8evw=",
+      "url": "plugins\/bootstrap\/.DS_Store"
+    },
+    {
+      "hash": "sha256-pVreZ67fRaATygHF6T+gQtF1NI700W9kzeAivu6au9U=",
+      "url": "plugins\/bootstrap\/js\/bootstrap.bundle.js"
+    },
+    {
+      "hash": "sha256-3UpdqvoTc6M2sug8WtFhr\/m3tg+4zLMgoMgjqpn5n1I=",
+      "url": "plugins\/bootstrap\/js\/bootstrap.bundle.js.map"
+    },
+    {
+      "hash": "sha256-fzFFyH01cBVPYzl16KT40wqjhgPtq6FFUB6ckN2+GGw=",
+      "url": "plugins\/bootstrap\/js\/bootstrap.bundle.min.js"
+    },
+    {
+      "hash": "sha256-8i3JQdKYQQcJzmbkwhwY+1XPe7Utf1LdBnYZCvNmKWc=",
+      "url": "plugins\/bootstrap\/js\/bootstrap.bundle.min.js.map"
+    },
+    {
+      "hash": "sha256-pl1bSrtlqtN\/MCyW8XUTYuJCKohp9\/iJESVW1344SBM=",
+      "url": "plugins\/bootstrap\/js\/bootstrap.js"
+    },
+    {
+      "hash": "sha256-R81NA2DWe8EPjZ2OUhieXYgvvXBnm78oMdeqOtSEr7c=",
+      "url": "plugins\/bootstrap\/js\/bootstrap.js.map"
+    },
+    {
+      "hash": "sha256-CjSoeELFOcH0\/uxWu6mC\/Vlrc1AARqbm\/jiiImDGV3s=",
+      "url": "plugins\/bootstrap\/js\/bootstrap.min.js"
+    },
+    {
+      "hash": "sha256-vMfBbEXmojM9AaHrIyKSo+20n5JM7KMyJkBCfL4pgL4=",
+      "url": "plugins\/bootstrap\/js\/bootstrap.min.js.map"
+    },
+    {
+      "hash": "sha256-8czARcEx3653OlAIQS02AYcNC15SKNuA\/B6lgMg991w=",
+      "url": "plugins\/daterangepicker\/bower.json"
+    },
+    {
+      "hash": "sha256-9e9MfmRHWQmp4yMV+R9cxXU6+ZjzB2x+YcE4Z1Kmuag=",
+      "url": "plugins\/daterangepicker\/daterangepicker.css"
+    },
+    {
+      "hash": "sha256-iacRP5fv2z3yGk6gnwi\/CjK8GRrr5MROIurU7iwYXRM=",
+      "url": "plugins\/daterangepicker\/daterangepicker.js"
+    },
+    {
+      "hash": "sha256-i5Sz6k84wIW81Va1LfTuwliJvhQZ2aXhTbD8GAJM05Q=",
+      "url": "plugins\/daterangepicker\/drp.png"
+    },
+    {
+      "hash": "sha256-AWmotjz9uIkoIyTLoBtWE9oYoWwTIVrfxuHnlWjI1mg=",
+      "url": "plugins\/daterangepicker\/example\/amd\/index.html"
+    },
+    {
+      "hash": "sha256-h7U1gJ8\/e2QIfiQOfHCMV22Ee8tAacRRvwKARju3Aro=",
+      "url": "plugins\/daterangepicker\/example\/amd\/main.js"
+    },
+    {
+      "hash": "sha256-i3gwZaG0ftp4Vkaf2NtWmt+X8ZAvEMBvSYzIfIYLjto=",
+      "url": "plugins\/daterangepicker\/example\/amd\/require.js"
+    },
+    {
+      "hash": "sha256-47DEQpj8HBSa+\/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "url": "plugins\/daterangepicker\/example\/browserify\/bundle.js"
+    },
+    {
+      "hash": "sha256-OG8R03hXmiHOMXf59FLOCnVxU\/MHd01EXLID212WRTE=",
+      "url": "plugins\/daterangepicker\/example\/browserify\/index.html"
+    },
+    {
+      "hash": "sha256-Yt+UR1477\/zyu90dxcm5WezpdHSV5zwn+baKNJSQEk0=",
+      "url": "plugins\/daterangepicker\/example\/browserify\/main.js"
+    },
+    {
+      "hash": "sha256-ZGF7BGkWA59Vt8iBtnsUWxK+p23LZccrZyHLdcBocdA=",
+      "url": "plugins\/daterangepicker\/example\/browserify\/README.md"
+    },
+    {
+      "hash": "sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=",
+      "url": "plugins\/daterangepicker\/moment.min.js"
+    },
+    {
+      "hash": "sha256-ddv65srpSaWqqSTHqZyToFyCCU\/fdTTFgW+YK9Ic\/JQ=",
+      "url": "plugins\/daterangepicker\/package.js"
+    },
+    {
+      "hash": "sha256-PUANBodMPuagLjqMqq+A8+mXPwOzSlUXfFV1ttuf4MU=",
+      "url": "plugins\/daterangepicker\/website.css"
+    },
+    {
+      "hash": "sha256-\/51enuBY8STLdrHGoBHO0neobXBt8bYMrlSorURs5hM=",
+      "url": "plugins\/daterangepicker\/website.js"
+    },
+    {
+      "hash": "sha256-xt015sQjrFXL6w7CWMB9MncrgCZsUIc7NyYqtkMeRYM=",
+      "url": "plugins\/daterangepicker\/website\/index.html"
+    },
+    {
+      "hash": "sha256-PUANBodMPuagLjqMqq+A8+mXPwOzSlUXfFV1ttuf4MU=",
+      "url": "plugins\/daterangepicker\/website\/website.css"
+    },
+    {
+      "hash": "sha256-\/51enuBY8STLdrHGoBHO0neobXBt8bYMrlSorURs5hM=",
+      "url": "plugins\/daterangepicker\/website\/website.js"
+    },
+    {
+      "hash": "sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK\/Kvc=",
+      "url": "plugins\/fontawesome-free\/css\/all.css"
+    },
+    {
+      "hash": "sha256-+N4\/V\/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev\/YKQ=",
+      "url": "plugins\/fontawesome-free\/css\/all.min.css"
+    },
+    {
+      "hash": "sha256-hIzRfkDG8yoX\/o\/xO8mmqvlHMAOHQsUetvMFu3Fa\/vY=",
+      "url": "plugins\/fontawesome-free\/css\/brands.css"
+    },
+    {
+      "hash": "sha256-UZFVAO0Fn854ajzdWnJ2Oze6k1X4LNqE2RJPW3MBfq8=",
+      "url": "plugins\/fontawesome-free\/css\/brands.min.css"
+    },
+    {
+      "hash": "sha256-YC896To53D\/eet6K3jAwOq67iCIK24u2Hg6CQ+026I8=",
+      "url": "plugins\/fontawesome-free\/css\/fontawesome.css"
+    },
+    {
+      "hash": "sha256-\/sdxenK1NDowSNuphgwjv8wSosSNZB0t5koXqd7XqOI=",
+      "url": "plugins\/fontawesome-free\/css\/fontawesome.min.css"
+    },
+    {
+      "hash": "sha256-p74lfPOOpH7Zq7NVP4bc+mDO8T6ipIZQAWxtdUihsd8=",
+      "url": "plugins\/fontawesome-free\/css\/regular.css"
+    },
+    {
+      "hash": "sha256-1xUFPzbRrl0qOLXDyBNYpuBMMThdiVPJEtZx24deLeg=",
+      "url": "plugins\/fontawesome-free\/css\/regular.min.css"
+    },
+    {
+      "hash": "sha256-wMES50JHO82E\/LjWWLWeCXXQahHeA0oemqGIfMkD5BI=",
+      "url": "plugins\/fontawesome-free\/css\/solid.css"
+    },
+    {
+      "hash": "sha256-8DcgqUGhWHHsTLj1qcGr0OuPbKkN1RwDjIbZ6DKh\/RA=",
+      "url": "plugins\/fontawesome-free\/css\/solid.min.css"
+    },
+    {
+      "hash": "sha256-M+zt9WUBzSXnKuJqAiPqKu6yhD8sgsYP5AD+hK3bYCY=",
+      "url": "plugins\/fontawesome-free\/css\/svg-with-js.css"
+    },
+    {
+      "hash": "sha256-JYHDEdWyJZOBj9BG3bP4M\/jNGY6Mq+bYCjZPQsA0EVc=",
+      "url": "plugins\/fontawesome-free\/css\/svg-with-js.min.css"
+    },
+    {
+      "hash": "sha256-CcxtRnA7cJcdimT0epyxYCVyqEPDduDvl0MXXjUx02E=",
+      "url": "plugins\/fontawesome-free\/css\/v4-shims.css"
+    },
+    {
+      "hash": "sha256-L4B\/tCDq4GACEVL8PJebMOHv1j+ry0TFsUOdJzjdw5M=",
+      "url": "plugins\/fontawesome-free\/css\/v4-shims.min.css"
+    },
+    {
+      "hash": "sha256-YPstKNLx29K8Gno7RHAf7By39jC+5DnZJsAkwyEsGpw=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-brands-400.eot"
+    },
+    {
+      "hash": "sha256-7Vv76kI3jFiglalqQX8GeAi091OJK7LUSaMb1LMIhM4=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-brands-400.svg"
+    },
+    {
+      "hash": "sha256-ynhbOg0PTBvQy74pipia8or\/MIa2Uiwur598EQ8ICHQ=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-brands-400.ttf"
+    },
+    {
+      "hash": "sha256-I9mkWFkE3uyTu+I7kR2X9A\/iW832Exc38Xsfh8S2g2c=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-brands-400.woff"
+    },
+    {
+      "hash": "sha256-08rxJZHRlHEvrNELyhTwqSTttZwkRHo\/2ZSkgobbiEM=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-brands-400.woff2"
+    },
+    {
+      "hash": "sha256-sRXT\/+79DDonb6lk46iuuPsE94L2kMR2wQQrBupGXNE=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-regular-400.eot"
+    },
+    {
+      "hash": "sha256-lTyCzPVu4aKS5A2KcE4ZLl2fQfGqXPN9D+RqQoGrl38=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-regular-400.svg"
+    },
+    {
+      "hash": "sha256-kTqUop2DhxLP7ZNwKKxKsU6sld3HhNUgfk1FBKtC+hc=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-regular-400.ttf"
+    },
+    {
+      "hash": "sha256-Q6iBFhWF2xYXn3DlMkCidPIJr\/A6r7zDS8MuF\/tNlcY=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-regular-400.woff"
+    },
+    {
+      "hash": "sha256-D8CiLl5nyV0Cw4mhRUrMZ99T4vakavc58+rH41JkR1E=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-regular-400.woff2"
+    },
+    {
+      "hash": "sha256-XvTHvpV33eAEBIYHzIciId4A24k\/KbqoCcN4sBNwo3A=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-solid-900.eot"
+    },
+    {
+      "hash": "sha256-hsfYnQ8NKdhcZoTbLY2pqsUUyBvKv0HqCvcm4p3iCkc=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-solid-900.svg"
+    },
+    {
+      "hash": "sha256-IGVtGo8upE42wrg1TRXE2yGQnuUUCwIk90+SR34Imfc=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-solid-900.ttf"
+    },
+    {
+      "hash": "sha256-fdX8329LMwv4KWWIfva5GWuNJ4Ve3e6ZrAT7Y94ONR4=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-solid-900.woff"
+    },
+    {
+      "hash": "sha256-PRCAYl0wMOiDV7OsmqN33Owj8bUpxK0D96mkNcyuBL4=",
+      "url": "plugins\/fontawesome-free\/webfonts\/fa-solid-900.woff2"
+    },
+    {
+      "hash": "sha256-W2Lh1mbGo3Owc0oXX9U1+TFVSZYaC72KvSRrrRp3UII=",
+      "url": "plugins\/jquery-ui\/AUTHORS.txt"
+    },
+    {
+      "hash": "sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=",
+      "url": "plugins\/jquery-ui\/external\/jquery\/jquery.js"
+    },
+    {
+      "hash": "sha256-ulP32xGz2bsuEUhzdyQy41cFgyEVTpwJVHL82VOpfMc=",
+      "url": "plugins\/jquery-ui\/images\/calendar.gif"
+    },
+    {
+      "hash": "sha256-6vfH7idHJ13abFPnMaENsaexX0+7RuG2nWuyBWvJ\/YE=",
+      "url": "plugins\/jquery-ui\/images\/ui-icons_444444_256x240.png"
+    },
+    {
+      "hash": "sha256-XQQFHf2dLXQDVUBPmKaD0ewP6y\/KfXblM8Gm5c6S3S4=",
+      "url": "plugins\/jquery-ui\/images\/ui-icons_555555_256x240.png"
+    },
+    {
+      "hash": "sha256-nb5KDQP+7W9l6yVgoKi0ukJkVF7o\/THBdjo7IZ0DKNY=",
+      "url": "plugins\/jquery-ui\/images\/ui-icons_777620_256x240.png"
+    },
+    {
+      "hash": "sha256-51snIR4W\/PlHFRaAAbtwVco3bUb5KBELo9CCUjJFLlo=",
+      "url": "plugins\/jquery-ui\/images\/ui-icons_777777_256x240.png"
+    },
+    {
+      "hash": "sha256-AokVddQ1jp7d4+QtlAV\/jp+CqdZDdvce6GzvFJ0wU34=",
+      "url": "plugins\/jquery-ui\/images\/ui-icons_cc0000_256x240.png"
+    },
+    {
+      "hash": "sha256-trBt7vK5JMw4NdY\/SIPUeIJzSjPnGyEtkXpozt47jp0=",
+      "url": "plugins\/jquery-ui\/images\/ui-icons_ffffff_256x240.png"
+    },
+    {
+      "hash": "sha256-p6xU9YulB7E2Ic62\/PX+h59ayb3PBJ0WFTEQxq0EjHw=",
+      "url": "plugins\/jquery-ui\/jquery-ui.css"
+    },
+    {
+      "hash": "sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=",
+      "url": "plugins\/jquery-ui\/jquery-ui.js"
+    },
+    {
+      "hash": "sha256-rByPlHULObEjJ6XQxW\/flG2r+22R5dKiAoef+aXWfik=",
+      "url": "plugins\/jquery-ui\/jquery-ui.min.css"
+    },
+    {
+      "hash": "sha256-KM512VNnjElC30ehFwehXjx1YCHPiQkOPmqnrWtpccM=",
+      "url": "plugins\/jquery-ui\/jquery-ui.min.js"
+    },
+    {
+      "hash": "sha256-E1uqV+d412nbSI+oqDMIQsTSttP+FS7Bxwc7mQdQYOo=",
+      "url": "plugins\/jquery-ui\/jquery-ui.structure.css"
+    },
+    {
+      "hash": "sha256-rxais37anKUnpL5QzSYte+JnIsmkGmLG+ZhKSkZkwVM=",
+      "url": "plugins\/jquery-ui\/jquery-ui.structure.min.css"
+    },
+    {
+      "hash": "sha256-mEMD30TTg+vIEGUmHHgcgSOgm0FBfLipyQ97Jr0TTH8=",
+      "url": "plugins\/jquery-ui\/jquery-ui.theme.css"
+    },
+    {
+      "hash": "sha256-AjyoyaRtnGVTywKH\/Isxxu5PXI0s4CcE0BzPAX83Ppc=",
+      "url": "plugins\/jquery-ui\/jquery-ui.theme.min.css"
+    },
+    {
+      "hash": "sha256-3jP7aViA0LB2FdS4b3jNQ3lpBpWa3l\/f73CWiCeg23g=",
+      "url": "plugins\/jquery-ui\/LICENSE.txt"
+    },
+    {
+      "hash": "sha256-36hEPcG8mKookfvUVvEqRkpdYV1unP6wvxIqbgdeVhk=",
+      "url": "plugins\/jquery\/core.js"
+    },
+    {
+      "hash": "sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=",
+      "url": "plugins\/jquery\/jquery.js"
+    },
+    {
+      "hash": "sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=",
+      "url": "plugins\/jquery\/jquery.min.js"
+    },
+    {
+      "hash": "sha256-216gdJ9jyl9OLrNNj28ZfQS92h9jPHKgx3y0us\/UhLE=",
+      "url": "plugins\/jquery\/jquery.min.map"
+    },
+    {
+      "hash": "sha256-BTlTdQO9\/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=",
+      "url": "plugins\/jquery\/jquery.slim.js"
+    },
+    {
+      "hash": "sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=",
+      "url": "plugins\/jquery\/jquery.slim.min.js"
+    },
+    {
+      "hash": "sha256-mkFzDPrhy67J6+u0ZJ5\/YWI2tRKsN8EQepzr5Alu3jw=",
+      "url": "plugins\/jquery\/jquery.slim.min.map"
+    },
+    {
+      "hash": "sha256-7dNorEhFJPteLds0iH3x\/FhdjGJvGzdoR5DxeAi+jUc=",
+      "url": "plugins\/summernote\/font\/summernote.eot"
+    },
+    {
+      "hash": "sha256-LuynQAkTsQ6JLB\/CVHmjrCFj+b5C++B3Lw4n64jl470=",
+      "url": "plugins\/summernote\/font\/summernote.ttf"
+    },
+    {
+      "hash": "sha256-aCgvKzKWtIQv1n+KgGZWhqCKrTW3KDxScw8KEvALbSM=",
+      "url": "plugins\/summernote\/font\/summernote.woff"
+    },
+    {
+      "hash": "sha256-RYUBJKItuuQMslBSyGGQURvzIj0UX1XQTIgoJnRUtY0=",
+      "url": "plugins\/summernote\/lang\/summernote-ar-AR.js"
+    },
+    {
+      "hash": "sha256-q9MLAOH++5Xn68U2GKNu9ufu7FJ7NB1SN\/U9eoI9uJ0=",
+      "url": "plugins\/summernote\/lang\/summernote-ar-AR.min.js"
+    },
+    {
+      "hash": "sha256-r53HZ8zS\/XNaSWxnfier+BJK788B8RyKqsXv6T27OcU=",
+      "url": "plugins\/summernote\/lang\/summernote-bg-BG.js"
+    },
+    {
+      "hash": "sha256-ilATd0EpZhPr272yuQIHeIPOoQMYa51ym474odRxWQ8=",
+      "url": "plugins\/summernote\/lang\/summernote-bg-BG.min.js"
+    },
+    {
+      "hash": "sha256-j0Q\/yy\/vepYGDW32qPISkdU7uvXUFR3N\/iIS+JNa9Wc=",
+      "url": "plugins\/summernote\/lang\/summernote-ca-ES.js"
+    },
+    {
+      "hash": "sha256-QclOOsYSVl6GOt2MlBs6bpCN65IdxpQqU5\/HW+iLEO0=",
+      "url": "plugins\/summernote\/lang\/summernote-ca-ES.min.js"
+    },
+    {
+      "hash": "sha256-JSkzKIyogZ1cnGO8Qv97WJVabpSpHg3xBRbnik21Lqc=",
+      "url": "plugins\/summernote\/lang\/summernote-cs-CZ.js"
+    },
+    {
+      "hash": "sha256-ujJxdZMSa2eJsLUS4ydcPChnK6y4o5MpFf1LHkBpNy0=",
+      "url": "plugins\/summernote\/lang\/summernote-cs-CZ.min.js"
+    },
+    {
+      "hash": "sha256-2fTUVmhzEyQb9\/cHJ4qtBap8eRmT4XmkJryHWimFtKI=",
+      "url": "plugins\/summernote\/lang\/summernote-da-DK.js"
+    },
+    {
+      "hash": "sha256-P+KtaU1xEpSWKSCGeDxq7DGKsnIzRmSrhBx+Ho6e5uY=",
+      "url": "plugins\/summernote\/lang\/summernote-da-DK.min.js"
+    },
+    {
+      "hash": "sha256-6hr7b49zhzkICfn3kFlX4\/9Mekc1BxWX7gmpOY3QNpc=",
+      "url": "plugins\/summernote\/lang\/summernote-de-DE.js"
+    },
+    {
+      "hash": "sha256-iLugQlvZFP0ViHoDss5lsR0I\/qEOY0doY3vAyKVTjw4=",
+      "url": "plugins\/summernote\/lang\/summernote-de-DE.min.js"
+    },
+    {
+      "hash": "sha256-D1bL7O6NeJfkqmnc0WGcgRKxLRWH+x+mQQu2OgY6Z88=",
+      "url": "plugins\/summernote\/lang\/summernote-el-GR.js"
+    },
+    {
+      "hash": "sha256-txQuXIGeTVUear9LyQ98DfwfaKONG5AnyKepFmi\/8uA=",
+      "url": "plugins\/summernote\/lang\/summernote-el-GR.min.js"
+    },
+    {
+      "hash": "sha256-kJxvonn4msz2+zB26tILgg31rwYM6THX26YRCjkc758=",
+      "url": "plugins\/summernote\/lang\/summernote-es-ES.js"
+    },
+    {
+      "hash": "sha256-WGSb9+cSz9Z9h66eFYAcBK6bVWd5ADdIe5u98GBWb4c=",
+      "url": "plugins\/summernote\/lang\/summernote-es-ES.min.js"
+    },
+    {
+      "hash": "sha256-ug9RXmepvs2j2fNivrDBrIbA0dQTUemvSf+bFGQNAvM=",
+      "url": "plugins\/summernote\/lang\/summernote-es-EU.js"
+    },
+    {
+      "hash": "sha256-GgLZS9raEpAhv2lthF7Ydfx1\/7TH8qUHOqR7icVLokA=",
+      "url": "plugins\/summernote\/lang\/summernote-es-EU.min.js"
+    },
+    {
+      "hash": "sha256-\/rbNdnvCwkrAHfbhP5jGsB2M47S5P3CjZwqU+Rfl3X8=",
+      "url": "plugins\/summernote\/lang\/summernote-fa-IR.js"
+    },
+    {
+      "hash": "sha256-Z6jj1ZNonQJNQ\/5YEZmdCqjMpse33Mw2TsmDJaCT6D4=",
+      "url": "plugins\/summernote\/lang\/summernote-fa-IR.min.js"
+    },
+    {
+      "hash": "sha256-c1F0cJnr+9DsO\/JHUcFzHaGEuVC3xjqO9FgHLrVzGKA=",
+      "url": "plugins\/summernote\/lang\/summernote-fi-FI.js"
+    },
+    {
+      "hash": "sha256-aOkmorKI3AvwLYdjehtavabrlYf9dzaUos5FkzdR4cU=",
+      "url": "plugins\/summernote\/lang\/summernote-fi-FI.min.js"
+    },
+    {
+      "hash": "sha256-ZOuDJWd3LsjuuRPXBSvl9z\/PDx1PzlQOzjfxfcnntXY=",
+      "url": "plugins\/summernote\/lang\/summernote-fr-FR.js"
+    },
+    {
+      "hash": "sha256-egjer+cVYJnY0gPuRQtjzA4IeiaU4H8dVwonLcmIMYU=",
+      "url": "plugins\/summernote\/lang\/summernote-fr-FR.min.js"
+    },
+    {
+      "hash": "sha256-ElfUvekZr0Lfj21JJujHARM0ijSrVFvNOEI7SL31W9M=",
+      "url": "plugins\/summernote\/lang\/summernote-gl-ES.js"
+    },
+    {
+      "hash": "sha256-W\/wq9KFy3Qxl3u9bRY2eNCt\/cXu4fsJn3ctuV6l6s0k=",
+      "url": "plugins\/summernote\/lang\/summernote-gl-ES.min.js"
+    },
+    {
+      "hash": "sha256-MgaENym2FsYg4AiQFvSqnb8WsAN8etESeS0WyEWOfZg=",
+      "url": "plugins\/summernote\/lang\/summernote-he-IL.js"
+    },
+    {
+      "hash": "sha256-FFWK\/kn2hPtV7wxB3vY2PcPflkInOjZ\/BRjNu322dao=",
+      "url": "plugins\/summernote\/lang\/summernote-he-IL.min.js"
+    },
+    {
+      "hash": "sha256-k8k2lbsEK5RZUc0iZDHciO8BnUXcV3wzE7g4YO+djEk=",
+      "url": "plugins\/summernote\/lang\/summernote-hr-HR.js"
+    },
+    {
+      "hash": "sha256-3gRJ9RsMuIlBJOzfIK46xwbFZJGL7Ohzw6AaGc4SxSI=",
+      "url": "plugins\/summernote\/lang\/summernote-hr-HR.min.js"
+    },
+    {
+      "hash": "sha256-l8rPBTKoh2gUZvoRWmL4Pgp7oVOA4A7hLGI1gZkmP94=",
+      "url": "plugins\/summernote\/lang\/summernote-hu-HU.js"
+    },
+    {
+      "hash": "sha256-8H7r6FMrutxP1NDL4zX6L4vW9v4JtqjRZTLuvYUnr28=",
+      "url": "plugins\/summernote\/lang\/summernote-hu-HU.min.js"
+    },
+    {
+      "hash": "sha256-SCAciQmlCCIVBUp5WJpKasvi+0+5\/\/ZWNI2b3utnE\/A=",
+      "url": "plugins\/summernote\/lang\/summernote-id-ID.js"
+    },
+    {
+      "hash": "sha256-+t\/B1D00GoI4IWqNHPdzWMoVhfSO2ltO+Z+mgK2kvr4=",
+      "url": "plugins\/summernote\/lang\/summernote-id-ID.min.js"
+    },
+    {
+      "hash": "sha256-EBXdKdkUWc6vM93mqJDHbYzSHErkVsQ3mNoRlzJZuOI=",
+      "url": "plugins\/summernote\/lang\/summernote-it-IT.js"
+    },
+    {
+      "hash": "sha256-MqrLVv8+E27yUe1ZGDPvSjONb+yBnMi5Ai+jjyBm6uQ=",
+      "url": "plugins\/summernote\/lang\/summernote-it-IT.min.js"
+    },
+    {
+      "hash": "sha256-DVtq3xfOVn9udBPbzFxRALDObVCPTGHH83TYNwJDH9c=",
+      "url": "plugins\/summernote\/lang\/summernote-ja-JP.js"
+    },
+    {
+      "hash": "sha256-uEOd7ZKsIRaO+4snUvjgjLuhFhf2mbbzMZMlXU+2Z4A=",
+      "url": "plugins\/summernote\/lang\/summernote-ja-JP.min.js"
+    },
+    {
+      "hash": "sha256-4AOHMhR\/7Krit20Km8HzQ7qqqaN6cg3CYxomCwViarA=",
+      "url": "plugins\/summernote\/lang\/summernote-ko-KR.js"
+    },
+    {
+      "hash": "sha256-BVljWSUpFxc6k+OnggkzhTQq6oq20VWqdBcN7ggdhvE=",
+      "url": "plugins\/summernote\/lang\/summernote-ko-KR.min.js"
+    },
+    {
+      "hash": "sha256-qz15jboWFyZSH96xp1QDXOttCme4ZJlmuh0Mf0v09UU=",
+      "url": "plugins\/summernote\/lang\/summernote-lt-LT.js"
+    },
+    {
+      "hash": "sha256-lMnGnjE7ZwzmMmClF9\/VIxsdGB76b9jo+9KouFetlkU=",
+      "url": "plugins\/summernote\/lang\/summernote-lt-LT.min.js"
+    },
+    {
+      "hash": "sha256-tNZTAs8xnxyFYZOQc7XT6np\/kAifIgMOW1AZPFbJDR8=",
+      "url": "plugins\/summernote\/lang\/summernote-lt-LV.js"
+    },
+    {
+      "hash": "sha256-+VymZgwbnxylRp7ZiMN7eWFwHeMH94KmkUFxwfO8h2Y=",
+      "url": "plugins\/summernote\/lang\/summernote-lt-LV.min.js"
+    },
+    {
+      "hash": "sha256-R1kJ+Z0wZ9FAe5tZPRGSKPpXWEV1f+6S9ttwazbXvmY=",
+      "url": "plugins\/summernote\/lang\/summernote-mn-MN.js"
+    },
+    {
+      "hash": "sha256-DgdpW4PqXhwa4Cg7FjskkXRHls\/35LV5AOMEHBOBBc4=",
+      "url": "plugins\/summernote\/lang\/summernote-mn-MN.min.js"
+    },
+    {
+      "hash": "sha256-WRV6VxbejpmzAFU5w6y3HnxQQaxkWT37r6fve+9Zjxg=",
+      "url": "plugins\/summernote\/lang\/summernote-nb-NO.js"
+    },
+    {
+      "hash": "sha256-URRgAy8TO1hm0ItvDNAmBZyx+Z42+XHD1DHibp74ig4=",
+      "url": "plugins\/summernote\/lang\/summernote-nb-NO.min.js"
+    },
+    {
+      "hash": "sha256-hdTZD1RHn1FBTacfwQB7RhVPgWBolez7Hb16EPhYtFM=",
+      "url": "plugins\/summernote\/lang\/summernote-nl-NL.js"
+    },
+    {
+      "hash": "sha256-SIJ\/9qEsmz4OAsbhkdkJlIQAOHx1pnLrfVY4QXEyW8w=",
+      "url": "plugins\/summernote\/lang\/summernote-nl-NL.min.js"
+    },
+    {
+      "hash": "sha256-U7aUuVk8IsK9B\/9f55rwCHdrwYt3uYBS1sya+rsSDZ4=",
+      "url": "plugins\/summernote\/lang\/summernote-pl-PL.js"
+    },
+    {
+      "hash": "sha256-LTG\/io2+XpAMmSjBt4wR0I4GRCmdOS5nj49kz2eCboc=",
+      "url": "plugins\/summernote\/lang\/summernote-pl-PL.min.js"
+    },
+    {
+      "hash": "sha256-\/m0MDokHRU0B9QEZ4vuZMLGCOn9N3C53qBRBTU5zHtE=",
+      "url": "plugins\/summernote\/lang\/summernote-pt-BR.js"
+    },
+    {
+      "hash": "sha256-yq37kxjvwZLadR1MBHWqtuMMJA8jwBHfPPRk1Xd3Tl0=",
+      "url": "plugins\/summernote\/lang\/summernote-pt-BR.min.js"
+    },
+    {
+      "hash": "sha256-CBSq5QrJ9DuTHqFlT3xAJ57CAqyS9cXZ595qGMo6WuU=",
+      "url": "plugins\/summernote\/lang\/summernote-pt-PT.js"
+    },
+    {
+      "hash": "sha256-ZxFzdKYousCXhCsl4UZYZFPPHSQzyL+UXcV3kEKGsb8=",
+      "url": "plugins\/summernote\/lang\/summernote-pt-PT.min.js"
+    },
+    {
+      "hash": "sha256-voweqByX1Dh7YBo57ufOoR3oIpseh5NBrHjTAjKxCLY=",
+      "url": "plugins\/summernote\/lang\/summernote-ro-RO.js"
+    },
+    {
+      "hash": "sha256-4+faoNR0nvUdYXWk6VdjFJ\/M1fOsJSapKWYFC5CoDBM=",
+      "url": "plugins\/summernote\/lang\/summernote-ro-RO.min.js"
+    },
+    {
+      "hash": "sha256-r4JnokqyXcbKZzyCrZcdcKWQtYLQQlWv0LYN4JEpBY4=",
+      "url": "plugins\/summernote\/lang\/summernote-ru-RU.js"
+    },
+    {
+      "hash": "sha256-Xhz+dyUuRXkG0WPYW5GxPW4AYf8fY1RFxZRlxIPhkrQ=",
+      "url": "plugins\/summernote\/lang\/summernote-ru-RU.min.js"
+    },
+    {
+      "hash": "sha256-xd7LpvclFf466qs61rl4N77599t5e4xLPsxX8zd41+c=",
+      "url": "plugins\/summernote\/lang\/summernote-sk-SK.js"
+    },
+    {
+      "hash": "sha256-T4OAbXYELVaT\/C2kDneKd+fNwlyfe\/Ak6n7TkGFENNw=",
+      "url": "plugins\/summernote\/lang\/summernote-sk-SK.min.js"
+    },
+    {
+      "hash": "sha256-wtArrN+YjQuGypbUAmLNOYXCmQfP5RSf6Pe3WxOKPFA=",
+      "url": "plugins\/summernote\/lang\/summernote-sl-SI.js"
+    },
+    {
+      "hash": "sha256-fxTos9YE9QjbHqj8SMPXz8zB06OZjJYo6wqSH8wPavQ=",
+      "url": "plugins\/summernote\/lang\/summernote-sl-SI.min.js"
+    },
+    {
+      "hash": "sha256-RpAxdWb6X1wp\/wmxl3HA0f0ET4\/4EW9nTMGbzYtfZBk=",
+      "url": "plugins\/summernote\/lang\/summernote-sr-RS-Latin.js"
+    },
+    {
+      "hash": "sha256-MP2UdOqwgza+5GepXIBAD5EzMqDTAw51uUnt9sAp+OU=",
+      "url": "plugins\/summernote\/lang\/summernote-sr-RS-Latin.min.js"
+    },
+    {
+      "hash": "sha256-VlMAGtLyFoRlBo2NqqbllLQNJAj\/mbcjl5uS3leH2Ug=",
+      "url": "plugins\/summernote\/lang\/summernote-sr-RS.js"
+    },
+    {
+      "hash": "sha256-nY1vhutntd0iFAXn2J80jcWiffB9f3j3MzY6mVEViVQ=",
+      "url": "plugins\/summernote\/lang\/summernote-sr-RS.min.js"
+    },
+    {
+      "hash": "sha256-RIaNp1YDr9CPGZ9pvd06D+ClgpPJ\/wM31412wAGzLhQ=",
+      "url": "plugins\/summernote\/lang\/summernote-sv-SE.js"
+    },
+    {
+      "hash": "sha256-HtYdMstZt7iofi+EBFyX5HtSi2OCqa1wTrNwP6P7BwA=",
+      "url": "plugins\/summernote\/lang\/summernote-sv-SE.min.js"
+    },
+    {
+      "hash": "sha256-C74mKRyxF9uf70Xfj64S19sEhIHUOS9v8HA8HMyF1MU=",
+      "url": "plugins\/summernote\/lang\/summernote-ta-IN.js"
+    },
+    {
+      "hash": "sha256-gV0ugAj7Y1KCK\/AfSdXphzb+Lgo4O1MDjVANcpSAnmc=",
+      "url": "plugins\/summernote\/lang\/summernote-ta-IN.min.js"
+    },
+    {
+      "hash": "sha256-jSc64yHMxuR0xHwXpKA9mGe741uA\/sKQLzp6f+8BXV0=",
+      "url": "plugins\/summernote\/lang\/summernote-th-TH.js"
+    },
+    {
+      "hash": "sha256-VBTWEJhwuVsgrTF5dW1k\/xLIFyGh6UNU9PUiy4TyTF4=",
+      "url": "plugins\/summernote\/lang\/summernote-th-TH.min.js"
+    },
+    {
+      "hash": "sha256-r5Wo0zfSQGuZcrVnWH06HvJW0qqbner8H\/meHCh5Q9s=",
+      "url": "plugins\/summernote\/lang\/summernote-tr-TR.js"
+    },
+    {
+      "hash": "sha256-vzDuig7O9Vjpls0QMQF7impuqeJ850YwUz8eFY14CEA=",
+      "url": "plugins\/summernote\/lang\/summernote-tr-TR.min.js"
+    },
+    {
+      "hash": "sha256-A8lm5X1lz7Sy8ZJOFGeqM3UwBi06IwwoEhvns1BTm4I=",
+      "url": "plugins\/summernote\/lang\/summernote-uk-UA.js"
+    },
+    {
+      "hash": "sha256-V9TM+0iSUfHgkGa0Pvl1kTdNAXGrZU57803NCkq\/KX4=",
+      "url": "plugins\/summernote\/lang\/summernote-uk-UA.min.js"
+    },
+    {
+      "hash": "sha256-oXfmGz2yvztYX6jlhCgYXJd5\/Ll86Nnb4yHBXhwQhMs=",
+      "url": "plugins\/summernote\/lang\/summernote-uz-UZ.js"
+    },
+    {
+      "hash": "sha256-wVjXiZZ74gcDjCPjizZh8MiaXSbPKAc4shrKDoxKYRs=",
+      "url": "plugins\/summernote\/lang\/summernote-uz-UZ.min.js"
+    },
+    {
+      "hash": "sha256-1zA1yv4YGYGGjlfY+8PfifFrcYNhcaHbb5AhiWQxKKI=",
+      "url": "plugins\/summernote\/lang\/summernote-vi-VN.js"
+    },
+    {
+      "hash": "sha256-zffgEzbB9IF3U1cd\/7iQ91VqwH9uQp+ft81akOGpYnY=",
+      "url": "plugins\/summernote\/lang\/summernote-vi-VN.min.js"
+    },
+    {
+      "hash": "sha256-bWfnNkbnzZemapffClHHLD\/ZFYuTZjlRAwWWKtOv4\/E=",
+      "url": "plugins\/summernote\/lang\/summernote-zh-CN.js"
+    },
+    {
+      "hash": "sha256-5JhQbHyVKB0pIXvAvf9UXlN6\/TzmUE0nBPMAClhO8Ic=",
+      "url": "plugins\/summernote\/lang\/summernote-zh-CN.min.js"
+    },
+    {
+      "hash": "sha256-QR9uAjXnJ6XMbxEAxoWCNG5fUsADA4JvOld\/XK4UsNQ=",
+      "url": "plugins\/summernote\/lang\/summernote-zh-TW.js"
+    },
+    {
+      "hash": "sha256-Kx4flfQH7L\/mjURPZ\/KUHRqZq5baltoy9Gj29yZrKXk=",
+      "url": "plugins\/summernote\/lang\/summernote-zh-TW.min.js"
+    },
+    {
+      "hash": "sha256-CLMYHViXNCxDUd\/ySLeJJjyLtteBZwjqZ4c5p6U7L78=",
+      "url": "plugins\/summernote\/summernote-bs4.css"
+    },
+    {
+      "hash": "sha256-IK+FRg\/iDNmiAaTRNsWUGJ8naT7ZAjzafPRdBcoXNPA=",
+      "url": "plugins\/summernote\/summernote-bs4.js"
+    },
+    {
+      "hash": "sha256-2XVCuM4m\/XEbaI4KX0hVVRH2WLj1RsO9w8DIJVAtEVw=",
+      "url": "plugins\/summernote\/summernote-bs4.js.map"
+    },
+    {
+      "hash": "sha256-jPK1ABk4CuFvSr31v4CLU7X7XCvixZSi8fTTCw\/tsto=",
+      "url": "plugins\/summernote\/summernote-bs4.min.js"
+    },
+    {
+      "hash": "sha256-ua3bMPEnt9I4PK\/BX6Md6WyYI8jhG7gt4aHXNmle6r0=",
+      "url": "plugins\/summernote\/summernote-lite.css"
+    },
+    {
+      "hash": "sha256-VN\/59hvwarqdfrEfdsx3FaXkG1KR6Rr+nq9sWaymc3Q=",
+      "url": "plugins\/summernote\/summernote-lite.js"
+    },
+    {
+      "hash": "sha256-f1SjlVNUf1JjTuhqI2SBPDn7AwJ5UEk0lxLwpX2Zjb0=",
+      "url": "plugins\/summernote\/summernote-lite.js.map"
+    },
+    {
+      "hash": "sha256-bReBg7iHkb5bOJUQGaKqvsJWi472AyWfSN3HQibTqVA=",
+      "url": "plugins\/summernote\/summernote-lite.min.js"
+    },
+    {
+      "hash": "sha256-f\/v2ew\/bb0v4el1ALE7bOoXGUDWGk2k+dkPLo3JPhLw=",
+      "url": "plugins\/summernote\/summernote.css"
+    },
+    {
+      "hash": "sha256-qMOrasYHJknr6tHDc145kBzFD11MBz5npqKdjsJ3E5Q=",
+      "url": "plugins\/summernote\/summernote.js"
+    },
+    {
+      "hash": "sha256-Rougv1\/ioKgwMMyanum71ph5reB6l+2VzECkYz35VK4=",
+      "url": "plugins\/summernote\/summernote.js.map"
+    },
+    {
+      "hash": "sha256-Q4K0T9IUORjpebn9dIu9szj2Rgn7GmLF+S3RjgM8aXw=",
+      "url": "plugins\/summernote\/summernote.min.js"
     },
     {
       "hash": "sha256-3LwUrOnT5fVJr8jNqU+s0jbp8oG9zqWEOXwn4N2Dc\/Q=",
@@ -2341,5 +3077,5 @@
       "url": "GWBlazor.Client.bundle.scp.css"
     }
   ],
-  "version": "leDjR9WQ"
+  "version": "1Fr1jxrF"
 };

@@ -30,5 +30,6 @@
         <Folder Include="Services\" />
         <Folder Include="Pages\Blog\" />
         <Folder Include="Components\" />
+        <Folder Include="wwwroot\plugins\" />
     </ItemGroup>
 </Project>
