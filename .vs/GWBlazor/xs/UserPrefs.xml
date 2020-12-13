@@ -1,22 +1,35 @@
 ﻿<Properties StartupConfiguration="{B92D82F4-8D70-4ED1-8F9C-A445C89B4841}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GWBlazor/Server/Pages/Shared/_LoginPartial.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GWBlazor/Client/Components/PostList.razor">
     <Files>
-      <File FileName="GWBlazor/Client/Pages/Index.razor" Line="3" Column="13" />
-      <File FileName="GWBlazor/Server/Pages/Shared/_LoginPartial.cshtml" Line="11" Column="141" />
-      <File FileName="GWBlazor/Shared/ApplicationUser.cs" Line="17" Column="31" />
+      <File FileName="GWBlazor/Client/Components/AddPost.razor" Line="20" Column="28" NotebookId="1" />
+      <File FileName="GWBlazor/Shared/URLs.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="GWBlazor/Client/Pages/Blog/ViewPost.razor" Line="20" Column="2" NotebookId="1" />
+      <File FileName="GWBlazor/Client/Pages/Blog/Index.razor" Line="1" Column="1" NotebookId="1" />
+      <File FileName="GWBlazor/Client/Components/PostList.razor" Line="1" Column="1" NotebookId="1" />
     </Files>
+    <FloatingWindows>
+      <FloatingWindow WindowId="1" X="168" Y="180" Width="746" Height="771">
+        <Files>
+          <File FileName="GWBlazor/Client/Services/BlogService.cs" Line="1" Column="1" />
+          <File FileName="GWBlazor/Server/Controllers/BlogController.cs" Line="35" Column="68" />
+        </Files>
+      </FloatingWindow>
+    </FloatingWindows>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GWBlazor" expanded="True">
             <Node name="GWBlazor.Client" expanded="True">
-              <Node name="Pages" expanded="True" />
+              <Node name="Components" expanded="True">
+                <Node name="PostList.razor" selected="True" />
+              </Node>
+              <Node name="Pages" expanded="True">
+                <Node name="Blog" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
             </Node>
             <Node name="GWBlazor.Server" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="Shared" expanded="True" />
-              </Node>
-              <Node name="app.db" selected="True" />
+              <Node name="Controllers" expanded="True" />
             </Node>
             <Node name="GWBlazor.Shared" expanded="True" />
           </Node>

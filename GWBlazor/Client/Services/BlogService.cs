@@ -30,5 +30,20 @@ namespace GWBlazor.Client.Services
 
             return newBlogPost;
         }
+
+        public void UpdateBlogPost(int postId, string updatedPost, string updateTitle)
+        {
+            var originalBlogPost = _blogPosts.Find(x => x.Id == postId);
+
+            originalBlogPost.Post = updatedPost;
+            originalBlogPost.Title = updateTitle;
+        }
+
+        public void DeleteBlogPost(int postId)
+        {
+            var blogPost = _blogPosts.Find(x => x.Id == postId);
+
+            _blogPosts.Remove(blogPost);
+        }
     }
 }

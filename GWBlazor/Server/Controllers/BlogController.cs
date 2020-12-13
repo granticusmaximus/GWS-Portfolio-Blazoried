@@ -14,10 +14,12 @@ namespace GWBlazor.Server.Controllers
     public class BlogController : ControllerBase
     {
         private readonly BlogService _blogService;
+        private List<Post> _blogPosts;
 
         public BlogController(BlogService blogService)
         {
             _blogService = blogService;
+            _blogPosts = new List<Post>();
         }
 
 
@@ -30,7 +32,7 @@ namespace GWBlazor.Server.Controllers
         [HttpGet(Urls.BlogPost)]
         public IActionResult GetBlogPostById(int id)
         {
-            var blogPost = _blogService.GetBlogPost(id);
+            var blogPost = _blogPosts.SingleOrDefault(x => x.PostID == id);
 
             if (blogPost == null)
                 return NotFound();

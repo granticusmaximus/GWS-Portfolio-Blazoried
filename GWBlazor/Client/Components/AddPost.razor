@@ -11,8 +11,14 @@
     <div class="row">
         <div class="col-md-12">
             <div class="editor">
+                <label>Title</label>
                 <input @bind=@Title placeholder="Title" class="form-control" />
+                <br />
+                <label>Article Content</label>
                 <RadzenHtmlEditor @bind-Value="Post" placeholder="Please enter post here" style="height: 500px; margin-bottom: 1rem;" UploadUrl="upload/image" />
+                <br />
+                <label>Slug</label>
+                <input @bind=@Slug placeholder="Enter a URL Slug *blah-blah-blah*" class="form-control" />
                 <br />
                 <input type="hidden" @bind="Id" />
                 <button class="btn btn-primary float-right" @onclick="@SavePost">Post</button>
@@ -24,8 +30,9 @@
 
 @code {
 
-    protected string Post { get; set; }
-    protected string Title { get; set; }
+    [Parameter] public string Post { get; set; }
+    [Parameter] public string Title { get; set; }
+    [Parameter] public string Slug { get; set; }
     [Parameter] public int Id { get; set; }
 
     public async Task SavePost()
@@ -35,6 +42,7 @@
             PostID = Id,
             Title = Title,
             Author = "Grant Watson",
+            Slug = Slug,
             Content = Post,
             Posted = DateTime.Now
         };
