@@ -2,17 +2,19 @@
 @inject HttpClient _httpClient
 @inject NavigationManager _uriHelper
 @using GWBlazor.Shared
+@using Blazored.TextEditor
 @layout MainLayout
 
 <Header Heading="GWS Articles" SubHeading="Add Post"></Header>
-
+<hr />
 <div class="container">
     <div class="row">
         <div class="col-md-12">
             <div class="editor">
                 <input @bind=@Title placeholder="Title" class="form-control" />
-                <textarea cols="250" asp-for="Description" class="textarea" placeholder="Place some text here"
-                          style="height: 550px; font-size: 14px; line-height: 18px; border: 1px solid #dddddd; border-radius:3px; padding: 10px;"></textarea>
+                <RadzenHtmlEditor @bind-Value="Post" placeholder="Please enter post here" style="height: 500px; margin-bottom: 1rem;" UploadUrl="upload/image" />
+                <br />
+                <input type="hidden" @bind="Id" />
                 <button class="btn btn-primary float-right" @onclick="@SavePost">Post</button>
             </div>
         </div>

@@ -699,6 +699,7 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/GWBlazor.Client.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/GWBlazor.Client.pdb
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/blazor.webassembly.js
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Blazored.TextEditor.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz
@@ -741,11 +742,13 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.Net.Http.Headers.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Newtonsoft.Json.dll.gz
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Radzen.Blazor.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.Blazor.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.ExcelExport.Net.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.Licensing.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.PdfExport.Net.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/System.IO.Pipelines.dll.gz
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/System.Linq.Dynamic.Core.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.CSharp.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.VisualBasic.Core.dll.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.VisualBasic.dll.gz
@@ -919,6 +922,7 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/icudt_no_CJK.dat.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/dotnet.5.0.0.js.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/GWBlazor.Shared.dll.gz
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Blazored.TextEditor.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.AspNetCore.Components.Authorization.dll
@@ -961,11 +965,13 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.JSInterop.WebAssembly.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.Net.Http.Headers.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Newtonsoft.Json.dll
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Radzen.Blazor.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.Blazor.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.ExcelExport.Net.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.Licensing.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Syncfusion.PdfExport.Net.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/System.IO.Pipelines.dll
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/System.Linq.Dynamic.Core.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.CSharp.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.VisualBasic.Core.dll
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/_framework/Microsoft.VisualBasic.dll
@@ -1186,6 +1192,7 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Shared/MainLayout.razor.g.cs
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Shared/NavMenu.razor.g.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/nhdGYbea.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/R2WF5Xh8.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/BdaV4Ty5.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/9kX7v+Dj.gz
@@ -1228,11 +1235,13 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/nFTbbanq.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/KQfTLwzu.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/HEMSOZsw.gz
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/Sx7Yw+6I.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/BpwJfDms.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/Hbn5Ht9O.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/pwypd2dX.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/jwcmznPK.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/Sr54Z8Gh.gz
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/ujBg+YMm.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/B+gMNQ+S.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/0VSiw4HN.gz
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/build-gz/6n203264.gz

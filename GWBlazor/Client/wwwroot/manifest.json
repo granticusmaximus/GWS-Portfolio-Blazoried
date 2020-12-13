@@ -1,6 +1,6 @@
 {
-  "name": "GWBlazor",
-  "short_name": "GWBlazor",
+  "name": "GWS",
+  "short_name": "GWS",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",

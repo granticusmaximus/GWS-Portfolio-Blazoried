@@ -10,6 +10,7 @@ using GWBlazor.Shared;
 using GWBlazor.Client.Services;
 using System.Net.Mime;
 using Microsoft.AspNetCore.ResponseCompression;
+using Radzen;
 
 namespace GWBlazor.Server
 {
@@ -30,6 +31,7 @@ namespace GWBlazor.Server
                 options.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddSingleton(typeof(BlogService));
+            services.AddScoped<DialogService>();
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();

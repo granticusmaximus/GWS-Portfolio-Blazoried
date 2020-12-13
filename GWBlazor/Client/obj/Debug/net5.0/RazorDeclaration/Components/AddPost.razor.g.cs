@@ -90,8 +90,29 @@ using GWBlazor.Client.Shared;
 #line hidden
 #nullable disable
 #nullable restore
+#line 12 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+using Radzen.Blazor;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+using Radzen;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 4 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Components/AddPost.razor"
 using GWBlazor.Shared;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 5 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Components/AddPost.razor"
+using Blazored.TextEditor;
 
 #line default
 #line hidden
@@ -106,7 +127,7 @@ using GWBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 23 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Components/AddPost.razor"
+#line 25 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Components/AddPost.razor"
        
 
     protected string Post { get; set; }

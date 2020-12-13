@@ -4,8 +4,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Microsoft.Extensions.DependencyInjection;
-using Syncfusion.Blazor;
 using GWBlazor.Client.Services;
+using Radzen;
 
 namespace GWBlazor.Client
 {
@@ -18,7 +18,7 @@ namespace GWBlazor.Client
             builder.Services.AddHttpClient("GWBlazor.ServerAPI", client => client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress))
                 .AddHttpMessageHandler<BaseAddressAuthorizationMessageHandler>();
             builder.Services.AddSingleton<BlogService>();
-            builder.Services.AddSyncfusionBlazor();
+            builder.Services.AddScoped<DialogService>();
             // Supply HttpClient instances that include access tokens when making requests to the server project
             builder.Services.AddScoped(sp => sp.GetRequiredService<IHttpClientFactory>().CreateClient("GWBlazor.ServerAPI"));
             builder.Services.AddApiAuthorization();

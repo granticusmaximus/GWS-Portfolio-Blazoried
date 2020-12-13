@@ -8,13 +8,15 @@
         <ExternalConsole>true</ExternalConsole>
     </PropertyGroup>
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.0" />
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.0" PrivateAssets="all" />
-        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="5.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="5.0.1" PrivateAssets="all" />
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="5.0.1" />
         <PackageReference Include="Microsoft.Extensions.Http" Version="5.0.0" />
         <PackageReference Include="System.Net.Http.Json" Version="5.0.0" />
-        <PackageReference Include="Syncfusion.Blazor" Version="18.3.0.52" />
-        <PackageReference Include="Microsoft.AspNetCore.Components" Version="5.0.0" />
+        <PackageReference Include="Syncfusion.Blazor" Version="18.3.0.53" />
+        <PackageReference Include="Microsoft.AspNetCore.Components" Version="5.0.1" />
+        <PackageReference Include="Blazored.TextEditor" Version="1.0.3" />
+        <PackageReference Include="Radzen.Blazor" Version="2.18.4" />
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\Shared\GWBlazor.Shared.csproj" />
@@ -30,6 +32,5 @@
         <Folder Include="Services\" />
         <Folder Include="Pages\Blog\" />
         <Folder Include="Components\" />
-        <Folder Include="wwwroot\plugins\" />
     </ItemGroup>
 </Project>
