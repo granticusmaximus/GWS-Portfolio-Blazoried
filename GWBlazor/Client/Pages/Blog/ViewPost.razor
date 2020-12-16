@@ -5,7 +5,11 @@
 @layout MainLayout
 
 <Header Heading=@BlogPost.Title Author=@BlogPost.Author PostedDate=@BlogPost.Posted></Header>
-
+<div class="row">
+    <div class="col-md-12">
+        <NavLink class="btn btn-primary float-right" href="@($"/editpost/{BlogPost.PostID}")">Edit</NavLink>
+    </div>
+</div>
 <article>
     <div class="container">
         <div class="row">

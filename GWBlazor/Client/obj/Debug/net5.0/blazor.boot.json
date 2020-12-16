@@ -222,12 +222,12 @@
       "mscorlib.dll": "sha256-i0zXLOX1XZekwNvRdQK9WDvRWKFggLp7KDCnvMrn+HQ=",
       "netstandard.dll": "sha256-4QNBIB4DMwj82CYd96oFrTh3fcrmyaDjtQ2dBTyWz7Q=",
       "System.Private.CoreLib.dll": "sha256-5Zk+rN+j5FbFEQJdT8YR2O0i6KWpvrERsaPZCv69DmI=",
-      "GWBlazor.Shared.dll": "sha256-N4\/XBbplqVSnZm6rPwJ7sh\/ymcTeps9RU7jRFt5V14I=",
-      "GWBlazor.Client.dll": "sha256-J3RnQoA8I9On4v9XxL9WRJDJ+C5ktEjdz2NeaZ5D98I="
+      "GWBlazor.Shared.dll": "sha256-33a2sgXkC1cDiTUJVMutCWcRzs9YYkLI5ElIiDN1TSQ=",
+      "GWBlazor.Client.dll": "sha256-gdXSemF07Kgp8HcvevPi89UynGVCsl8s9QV9mU5I5lQ="
     },
     "lazyAssembly": null,
     "pdb": {
-      "GWBlazor.Client.pdb": "sha256-3K0Sdvwezd1UWSiHieYjxSxjGyi2AS4QI60iw7HI4N0="
+      "GWBlazor.Client.pdb": "sha256-nPI1Pxyoeisz8mUVHmDsuMqwOTMNF\/ort1MJauWF1K4="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-2ldEe2K8ARFKSIBsv+Hr3iNQzq9qh1H\/dwdu2r+AIyY=",

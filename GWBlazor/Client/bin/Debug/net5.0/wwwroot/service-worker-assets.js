@@ -597,7 +597,7 @@
       "url": "_content\/Blazored.TextEditor\/quill-blot-formatter.min.js"
     },
     {
-      "hash": "sha256-Cq9p+mOpV8MdJ0XB0MpORKRelAvbywernIk50jJsVYE=",
+      "hash": "sha256-YIuEoq3NdzthTR5odgQQMyFz8Z8rCQ0ksbZpyajvWMM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1489,19 +1489,19 @@
       "url": "_framework\/dotnet.5.0.0.js"
     },
     {
-      "hash": "sha256-N4\/XBbplqVSnZm6rPwJ7sh\/ymcTeps9RU7jRFt5V14I=",
+      "hash": "sha256-33a2sgXkC1cDiTUJVMutCWcRzs9YYkLI5ElIiDN1TSQ=",
       "url": "_framework\/GWBlazor.Shared.dll"
     },
     {
-      "hash": "sha256-AJAne6sfRbc+4vutKVbcMue3stIETfYIi1dNV1xzt10=",
+      "hash": "sha256-5KTAY6BfZuanE5FsaJEngFHufLWzGzehvVHLueldQd8=",
       "url": "_framework\/GWBlazor.Shared.pdb"
     },
     {
-      "hash": "sha256-J3RnQoA8I9On4v9XxL9WRJDJ+C5ktEjdz2NeaZ5D98I=",
+      "hash": "sha256-gdXSemF07Kgp8HcvevPi89UynGVCsl8s9QV9mU5I5lQ=",
       "url": "_framework\/GWBlazor.Client.dll"
     },
     {
-      "hash": "sha256-3K0Sdvwezd1UWSiHieYjxSxjGyi2AS4QI60iw7HI4N0=",
+      "hash": "sha256-nPI1Pxyoeisz8mUVHmDsuMqwOTMNF\/ort1MJauWF1K4=",
       "url": "_framework\/GWBlazor.Client.pdb"
     },
     {
@@ -2397,7 +2397,7 @@
       "url": "_framework\/dotnet.5.0.0.js.gz"
     },
     {
-      "hash": "sha256-TQGZ2rfqNLzWqkwJGQFFAZptdVzGzOjogOer754uVgE=",
+      "hash": "sha256-MuQhkK4C7c2VIDgIg9ru499fQLSIcONHlZv\/\/sSqVz0=",
       "url": "_framework\/GWBlazor.Shared.dll.gz"
     },
     {
@@ -2477,5 +2477,5 @@
       "url": "GWBlazor.Client.bundle.scp.css"
     }
   ],
-  "version": "Vzfy2NPV"
+  "version": "LjAOqxOL"
 };

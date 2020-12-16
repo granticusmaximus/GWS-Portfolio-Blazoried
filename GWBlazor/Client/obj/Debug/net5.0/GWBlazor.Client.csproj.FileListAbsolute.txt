@@ -1154,7 +1154,6 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/GWBlazor.Client.MvcApplicationPartsAssemblyInfo.cache
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/GWBlazor.Client.RazorComponent.input.cache
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/RazorDeclaration/App.razor.g.cs
-/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/RazorDeclaration/Components/AddPost.razor.g.cs
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/RazorDeclaration/Components/Header.razor.g.cs
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/RazorDeclaration/Components/PostList.razor.g.cs
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/RazorDeclaration/Components/PostPreview.razor.g.cs
@@ -1176,7 +1175,6 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/GWBlazor.Client.TagHelpers.output.cache
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/GWBlazor.Client.RazorCoreGenerate.cache
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/App.razor.g.cs
-/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Components/AddPost.razor.g.cs
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Components/Header.razor.g.cs
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Components/PostList.razor.g.cs
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Components/PostPreview.razor.g.cs
@@ -1428,3 +1426,5 @@
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/GWBlazor.Client.pdb
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/serviceworkers/wwwroot/service-worker.js
 /Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/service-worker-assets.js
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/RazorDeclaration/Pages/Blog/PostEditor.razor.g.cs
+/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/Razor/Pages/Blog/PostEditor.razor.g.cs

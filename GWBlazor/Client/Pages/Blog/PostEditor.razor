@@ -1,0 +1,108 @@
+﻿@inject HttpClient _httpClient
+@inject NavigationManager _uriHelper
+@using GWBlazor.Shared
+@using GWBlazor.Client.Components
+@page "/addpost"
+@page "/editpost/{PostId}"
+
+
+@if (IsEdit)
+{
+    <Header Heading="GWS Articles" SubHeading="Edit Post"></Header>
+}
+else
+{
+    <Header Heading="GWS Articles" SubHeading="Add Post"></Header>
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            @if (IsEdit)
+            {
+                <div class="editor">
+                    <input @bind=@ExistingBlogPost.Title placeholder="Title" class="form-control" />
+                    <label>Article Content</label>
+                    <RadzenHtmlEditor @bind-Value="Post" placeholder="Please enter post here" style="height: 500px; margin-bottom: 1rem;" UploadUrl="upload/image" />
+                    <br />
+                    <label>Slug</label>
+                    <input @bind=@Slug placeholder="Enter a URL Slug *blah-blah-blah*" class="form-control" />
+                    <br />
+                    <button class="btn btn-primary float-right" @onclick="@DeletePost">Delete</button>
+                    <button class="btn btn-primary float-right" @onclick="@UpdatePost">Update</button>
+                </div>
+            }
+            else
+            {
+                <div class="editor">
+                    <input @bind=@Title placeholder="Title" class="form-control" />
+                    <label>Article Content</label>
+                    <RadzenHtmlEditor @bind-Value="Post" placeholder="Please enter post here" style="height: 500px; margin-bottom: 1rem;" UploadUrl="upload/image" />
+                    <br />
+                    <label>Slug</label>
+                    <input @bind=@Slug placeholder="Enter a URL Slug *blah-blah-blah*" class="form-control" />
+                    <br />
+                    <button class="btn btn-primary float-right" @onclick="@SavePost">Post</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+@code {
+    [Parameter] public string PostId { get; set; }
+
+    protected string Post { get; set; }
+    protected string Title { get; set; }
+    protected int CharacterCount { get; set; }
+    protected Post ExistingBlogPost { get; set; } = new Post();
+    [Parameter] public string Slug { get; set; }
+    [Parameter] public int Id { get; set; }
+    protected bool IsEdit => string.IsNullOrEmpty(PostId) ? false : true;
+
+    public async Task OnInitAsync()
+    {
+        if (!string.IsNullOrEmpty(PostId))
+        {
+            await LoadPost();
+        }
+    }
+
+    public async Task SavePost()
+    {
+        var newPost = new Post()
+        {
+            Title = Title,
+            Author = "Grant Watson",
+            Content = Post,
+            Slug = Slug,
+            PostID = Id,
+            Posted = DateTime.Now
+        };
+
+        var savedPost = await _httpClient.PostAsJsonAsync<Post>(Urls.AddBlogPost, newPost);
+
+        _uriHelper.NavigateTo($"viewpost/{savedPost}");
+    }
+
+    public async Task UpdatePost()
+    {
+        await _httpClient.PostAsJsonAsync(Urls.UpdateBlogPost.Replace("{id}", PostId), ExistingBlogPost);
+
+        _uriHelper.NavigateTo($"viewpost/{ExistingBlogPost.PostID}");
+    }
+
+    private async Task LoadPost()
+    {
+        ExistingBlogPost = await _httpClient.GetFromJsonAsync<Post>(Urls.BlogPost.Replace("{id}", PostId));
+    }
+
+    public async Task DeletePost()
+    {
+        await _httpClient.DeleteAsync(Urls.DeleteBlogPost.Replace("{id}", ExistingBlogPost.PostID.ToString()));
+
+        _uriHelper.NavigateTo("/");
+    }
+
+}

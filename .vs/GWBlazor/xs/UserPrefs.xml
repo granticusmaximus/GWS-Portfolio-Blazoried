@@ -1,30 +1,22 @@
 ﻿<Properties StartupConfiguration="{B92D82F4-8D70-4ED1-8F9C-A445C89B4841}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GWBlazor/Client/Components/PostList.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GWBlazor/Client/Pages/Blog/ViewPost.razor">
     <Files>
-      <File FileName="GWBlazor/Client/Components/AddPost.razor" Line="20" Column="28" NotebookId="1" />
-      <File FileName="GWBlazor/Shared/URLs.cs" Line="1" Column="1" NotebookId="1" />
-      <File FileName="GWBlazor/Client/Pages/Blog/ViewPost.razor" Line="20" Column="2" NotebookId="1" />
-      <File FileName="GWBlazor/Client/Pages/Blog/Index.razor" Line="1" Column="1" NotebookId="1" />
-      <File FileName="GWBlazor/Client/Components/PostList.razor" Line="1" Column="1" NotebookId="1" />
+      <File FileName="GWBlazor/Shared/URLs.cs" Line="7" Column="29" />
+      <File FileName="GWBlazor/Client/Services/BlogService.cs" Line="44" Column="57" />
+      <File FileName="GWBlazor/Server/Controllers/BlogController.cs" Line="61" Column="25" />
+      <File FileName="GWBlazor/Client/Pages/Blog/PostEditor.razor" Line="43" Column="27" />
+      <File FileName="GWBlazor/Client/Pages/Blog/ViewPost.razor" Line="12" Column="7" />
     </Files>
-    <FloatingWindows>
-      <FloatingWindow WindowId="1" X="168" Y="180" Width="746" Height="771">
-        <Files>
-          <File FileName="GWBlazor/Client/Services/BlogService.cs" Line="1" Column="1" />
-          <File FileName="GWBlazor/Server/Controllers/BlogController.cs" Line="35" Column="68" />
-        </Files>
-      </FloatingWindow>
-    </FloatingWindows>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GWBlazor" expanded="True">
             <Node name="GWBlazor.Client" expanded="True">
-              <Node name="Components" expanded="True">
-                <Node name="PostList.razor" selected="True" />
-              </Node>
+              <Node name="Components" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Blog" expanded="True" />
+                <Node name="Blog" expanded="True">
+                  <Node name="ViewPost.razor" selected="True" />
+                </Node>
               </Node>
               <Node name="Services" expanded="True" />
             </Node>

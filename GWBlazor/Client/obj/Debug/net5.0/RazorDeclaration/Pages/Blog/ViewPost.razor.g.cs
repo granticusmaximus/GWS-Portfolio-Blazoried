@@ -127,15 +127,14 @@ using GWBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 19 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Pages/Blog/ViewPost.razor"
-      
-
+#line 24 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Pages/Blog/ViewPost.razor"
+ 
 
     [Parameter] public string PostId { get; set; }
 
     protected Post BlogPost { get; set; } = new Post();
 
-    protected async Task OnInitAsync()
+    public async Task OnInitAsync()
     {
         await LoadBlogPost();
     }

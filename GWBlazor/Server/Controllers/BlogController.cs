@@ -47,5 +47,21 @@ namespace GWBlazor.Server.Controllers
 
             return Created(new Uri(Urls.BlogPost.Replace("{id}", savedBlogPost.PostID.ToString()), UriKind.Relative), savedBlogPost);
         }
+        [HttpPut(Urls.UpdateBlogPost)]
+        public IActionResult UpdateBlogPost(int id, [FromBody] Post updatedBlogPost)
+        {
+            _blogService.UpdateBlogPost(id, updatedBlogPost.Content, updatedBlogPost.Title);
+
+            return Ok();
+        }
+
+        [HttpDelete(Urls.DeleteBlogPost)]
+        public IActionResult DeleteBlogPost(int id)
+        {
+            _blogService.DeleteBlogPost(id);
+
+            return Ok();
+        }
+
     }
 }
