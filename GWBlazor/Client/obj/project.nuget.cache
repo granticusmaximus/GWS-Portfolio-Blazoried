@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "id+pnB+/BFVH8/Cb4ETSFwLQ/WWWCkgFFX1JGmhoeezon9OnlrY466MvMeuOR4YkiDNEKibVAZ/XqivIJWakiw==",
+  "dgSpecHash": "8djoOm43Zjw1/CEgFyazfqv3rxp8q6WrENpGAwJG3R+2PdvWQ+NTIw4F+SOwk9BBOXPfTT5rcbRiBgJLqNE8Sw==",
   "success": true,
   "projectFilePath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj",
   "expectedPackageFiles": [
@@ -66,7 +66,7 @@
     "/Users/grantwatson/.nuget/packages/system.linq.dynamic.core/1.2.2/system.linq.dynamic.core.1.2.2.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/system.net.http.json/5.0.0/system.net.http.json.5.0.0.nupkg.sha512",
     "/Users/grantwatson/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512",
-    "/Users/grantwatson/.nuget/packages/microsoft.netcore.app.runtime.browser-wasm/5.0.0/microsoft.netcore.app.runtime.browser-wasm.5.0.0.nupkg.sha512"
+    "/Users/grantwatson/.nuget/packages/microsoft.netcore.app.runtime.browser-wasm/5.0.1/microsoft.netcore.app.runtime.browser-wasm.5.0.1.nupkg.sha512"
   ],
   "logs": []
 }

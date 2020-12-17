@@ -13,10 +13,10 @@ namespace GWBlazor.Server.Controllers
     [ApiController]
     public class BlogController : ControllerBase
     {
-        private readonly BlogService _blogService;
+        private readonly IBlogService _blogService;
         private List<Post> _blogPosts;
 
-        public BlogController(BlogService blogService)
+        public BlogController(IBlogService blogService)
         {
             _blogService = blogService;
             _blogPosts = new List<Post>();

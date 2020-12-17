@@ -1,24 +1,24 @@
 ﻿<Properties StartupConfiguration="{B92D82F4-8D70-4ED1-8F9C-A445C89B4841}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="GWBlazor/Client/Pages/Blog/ViewPost.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="GWBlazor/Client/Services/BlogService.cs">
     <Files>
       <File FileName="GWBlazor/Shared/URLs.cs" Line="7" Column="29" />
-      <File FileName="GWBlazor/Client/Services/BlogService.cs" Line="44" Column="57" />
-      <File FileName="GWBlazor/Server/Controllers/BlogController.cs" Line="61" Column="25" />
-      <File FileName="GWBlazor/Client/Pages/Blog/PostEditor.razor" Line="43" Column="27" />
-      <File FileName="GWBlazor/Client/Pages/Blog/ViewPost.razor" Line="12" Column="7" />
+      <File FileName="GWBlazor/Client/Pages/Blog/Index.razor" Line="10" Column="1" />
+      <File FileName="GWBlazor/Client/Components/AddPost.razor" Line="12" Column="1" />
+      <File FileName="GWBlazor/Client/Services/IBlogService.cs" Line="9" Column="35" NotebookId="1" />
+      <File FileName="GWBlazor/Server/Controllers/BlogController.cs" Line="19" Column="43" NotebookId="1" />
+      <File FileName="GWBlazor/Client/Services/BlogService.cs" Line="23" Column="65" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="GWBlazor" expanded="True">
             <Node name="GWBlazor.Client" expanded="True">
-              <Node name="Components" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Blog" expanded="True">
-                  <Node name="ViewPost.razor" selected="True" />
-                </Node>
+                <Node name="Blog" expanded="True" />
               </Node>
-              <Node name="Services" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="BlogService.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="GWBlazor.Server" expanded="True">
               <Node name="Controllers" expanded="True" />
