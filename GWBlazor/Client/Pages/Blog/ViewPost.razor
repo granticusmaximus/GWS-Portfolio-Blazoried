@@ -1,0 +1,42 @@
+﻿@inject HttpClient client
+@using GWBlazor.Shared
+
+<header class="masthead" style="background-image: url('/img/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="post-heading">
+                    <h1>@BlogPost.Title</h1>
+                    <span class="meta">Posted by <a href="#">@BlogPost.Author</a> on @BlogPost.Posted.ToShortDateString()</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                @BlogPost.Content
+            </div>
+        </div>
+    </div>
+</article>
+
+@code {
+    [Parameter] public string PostID { get; set; }
+
+    public Post BlogPost { get; set; } = new Post();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadBlogPost();
+    }
+
+    private async Task LoadBlogPost()
+    {
+        BlogPost = await client.GetFromJsonAsync<Post>(Urls.BlogPost.Replace("{id}", PostID));
+    }
+}

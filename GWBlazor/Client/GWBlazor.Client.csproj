@@ -30,7 +30,6 @@
     <ItemGroup>
         <Folder Include="Sass\" />
         <Folder Include="Services\" />
-        <Folder Include="Pages\Blog\" />
         <Folder Include="Components\" />
     </ItemGroup>
 </Project>

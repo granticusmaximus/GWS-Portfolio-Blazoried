@@ -13,10 +13,10 @@ namespace GWBlazor.Server.Controllers
     [ApiController]
     public class BlogController : ControllerBase
     {
-        private readonly IBlogService _blogService;
+        private readonly BlogService _blogService;
         private List<Post> _blogPosts;
 
-        public BlogController(IBlogService blogService)
+        public BlogController(BlogService blogService)
         {
             _blogService = blogService;
             _blogPosts = new List<Post>();
@@ -46,21 +46,6 @@ namespace GWBlazor.Server.Controllers
             var savedBlogPost = _blogService.AddBlogPost(newBlogPost);
 
             return Created(new Uri(Urls.BlogPost.Replace("{id}", savedBlogPost.PostID.ToString()), UriKind.Relative), savedBlogPost);
-        }
-        [HttpPut(Urls.UpdateBlogPost)]
-        public IActionResult UpdateBlogPost(int id, [FromBody] Post updatedBlogPost)
-        {
-            _blogService.UpdateBlogPost(id, updatedBlogPost.Content, updatedBlogPost.Title);
-
-            return Ok();
-        }
-
-        [HttpDelete(Urls.DeleteBlogPost)]
-        public IActionResult DeleteBlogPost(int id)
-        {
-            _blogService.DeleteBlogPost(id);
-
-            return Ok();
         }
 
     }

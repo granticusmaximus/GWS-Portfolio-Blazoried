@@ -1,9 +1,45 @@
 ﻿@page "/Blog"
+@using GWBlazor.Shared
+@inject HttpClient client
 
+<header class="masthead" style="background-image: url('img/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div class="site-heading">
+                    <h1>GWS</h1>
+                    <span class="subheading">A Blazor Powered Blogging App</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
 
-
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+            @foreach (var post in blogPosts)
+            {
+                <BlogPost BlogPost=@post></BlogPost>
+                <hr />
+            }
+        </div>
+    </div>
+</div>
 
 @code {
+    protected List<Post> blogPosts { get; set; } = new List<Post>();
 
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadBlogPosts();
+    }
+
+    public async Task LoadBlogPosts()
+    {
+        var blogPostsResponse = await client.GetFromJsonAsync<List<Post>>(Urls.BlogPosts);
+        blogPosts = blogPostsResponse.OrderByDescending(p => p.Posted).ToList();
+    }
 
 }

@@ -1,34 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj": {}
+    "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj": {}
   },
   "projects": {
-    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj": {
+    "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj",
         "projectName": "GWBlazor.Client",
-        "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/GWBlazor.Client.csproj",
-        "packagesPath": "/Users/grantwatson/.nuget/packages/",
-        "outputPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj",
+        "packagesPath": "C:\\Users\\grantwatson\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/grantwatson/.config/NuGet/NuGet.Config"
+          "C:\\Users\\grantwatson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "/Users/grantwatson/Desktop/Dev/Nugs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\Mac\\Home\\Desktop\\Dev\\RMITS\\Local Nugs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj": {
-                "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj"
+              "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj"
               }
             }
           }
@@ -94,7 +96,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
-              "version": "[5.0.1, 5.0.1]"
+              "version": "[5.0.2, 5.0.2]"
             }
           ],
           "frameworkReferences": {
@@ -102,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -111,23 +113,25 @@
         }
       }
     },
-    "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj": {
+    "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj",
         "projectName": "GWBlazor.Shared",
-        "projectPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/GWBlazor.Shared.csproj",
-        "packagesPath": "/Users/grantwatson/.nuget/packages/",
-        "outputPath": "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Shared/obj/",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj",
+        "packagesPath": "C:\\Users\\grantwatson\\.nuget\\packages\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/grantwatson/.config/NuGet/NuGet.Config"
+          "C:\\Users\\grantwatson\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "/Users/grantwatson/Desktop/Dev/Nugs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "\\\\Mac\\Home\\Desktop\\Dev\\RMITS\\Local Nugs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -166,7 +170,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

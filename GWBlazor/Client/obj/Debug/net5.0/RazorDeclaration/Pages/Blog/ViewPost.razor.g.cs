@@ -13,112 +13,103 @@ namespace GWBlazor.Client.Pages.Blog
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 1 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 2 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 3 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 4 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 5 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 6 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 7 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 8 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 9 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 10 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using GWBlazor.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 11 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using GWBlazor.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 12 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Radzen.Blazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/_Imports.razor"
+#line 13 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Radzen;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Pages/Blog/ViewPost.razor"
-using GWBlazor.Client.Components;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 4 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Pages/Blog/ViewPost.razor"
+#line 2 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\ViewPost.razor"
 using GWBlazor.Shared;
 
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.LayoutAttribute(typeof(MainLayout))]
-    [Microsoft.AspNetCore.Components.RouteAttribute("/viewpost/{postId}")]
     public partial class ViewPost : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -127,27 +118,26 @@ using GWBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 24 "/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/Pages/Blog/ViewPost.razor"
- 
+#line 28 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\ViewPost.razor"
+       
+    [Parameter] public string PostID { get; set; }
 
-    [Parameter] public string PostId { get; set; }
+    public Post BlogPost { get; set; } = new Post();
 
-    protected Post BlogPost { get; set; } = new Post();
-
-    public async Task OnInitAsync()
+    protected override async Task OnInitializedAsync()
     {
         await LoadBlogPost();
     }
 
     private async Task LoadBlogPost()
     {
-        BlogPost = await _httpClient.GetFromJsonAsync<Post>(Urls.BlogPost.Replace("{id}", PostId));
+        BlogPost = await client.GetFromJsonAsync<Post>(Urls.BlogPost.Replace("{id}", PostID));
     }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient _httpClient { get; set; }
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient client { get; set; }
     }
 }
 #pragma warning restore 1591
