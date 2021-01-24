@@ -110,6 +110,13 @@ using GWBlazor.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 3 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\Index.razor"
+using GWBlazor.Client.Component;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/Blog")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -119,7 +126,7 @@ using GWBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 31 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\Index.razor"
+#line 20 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\Index.razor"
        
     protected List<Post> blogPosts { get; set; } = new List<Post>();
 

@@ -48,5 +48,22 @@ namespace GWBlazor.Server.Controllers
             return Created(new Uri(Urls.BlogPost.Replace("{id}", savedBlogPost.PostID.ToString()), UriKind.Relative), savedBlogPost);
         }
 
+        [HttpPut(Urls.UpdateBlogPost)]
+        public void UpdateBlogPost(int postId, string updatedPost, string updateTitle)
+        {
+            var originalBlogPost = _blogPosts.Find(x => x.PostID == postId);
+
+            originalBlogPost.Content = updatedPost;
+            originalBlogPost.Title = updateTitle;
+        }
+
+        [HttpDelete(Urls.DeleteBlogPost)]
+        public void DeleteBlogPost(int postId)
+        {
+            var blogPost = _blogPosts.Find(x => x.PostID == postId);
+
+            _blogPosts.Remove(blogPost);
+        }
+
     }
 }

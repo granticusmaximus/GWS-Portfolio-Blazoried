@@ -4,7 +4,7 @@
 #pragma warning disable 0649
 #pragma warning disable 0169
 
-namespace GWBlazor.Client.Pages.Blog
+namespace GWBlazor.Client.Component
 {
     #line hidden
     using System;
@@ -103,23 +103,7 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 3 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\AddPost.razor"
-using GWBlazor.Shared;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 4 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\AddPost.razor"
-using GWBlazor.Client.Component;
-
-#line default
-#line hidden
-#nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/addpost")]
-    [Microsoft.AspNetCore.Components.RouteAttribute("/editpost/{PostId}")]
-    public partial class AddPost : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class WdHeader : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -127,57 +111,16 @@ using GWBlazor.Client.Component;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 22 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\AddPost.razor"
+#line 22 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Component\WdHeader.razor"
        
-    [Parameter] public string PostId { get; set; }
-
-    protected string Post { get; set; }
-    protected string Title { get; set; }
-    protected int CharacterCount { get; set; }
-    protected Post ExistingBlogPost { get; set; } = new Post();
-    protected bool IsEdit => string.IsNullOrEmpty(PostId) ? false : true;
-
-
-    protected override async Task OnInitializedAsync()
-    {
-        if (!string.IsNullOrEmpty(PostId))
-        {
-            await LoadPost();
-        }
-    }
-
-    public async Task SavePost()
-    {
-        var newPost = new Post()
-        {
-            Title = Title,
-            Author = "Grant Watson",
-            Content = Post,
-            Posted = DateTime.Now
-        };
-
-        var savedPost = await client.PostAsJsonAsync<Post>(Urls.AddBlogPost, newPost);
-
-        helper.NavigateTo($"viewpost/{savedPost}");
-    }
-
-    public async Task UpdatePost()
-    {
-        await client.PutAsJsonAsync(Urls.UpdateBlogPost.Replace("{id}", PostId), ExistingBlogPost);
-
-        helper.NavigateTo($"viewpost/{ExistingBlogPost}");
-    }
-
-    private async Task LoadPost()
-    {
-        ExistingBlogPost = await client.GetFromJsonAsync<Post>(Urls.BlogPost.Replace("{id}", PostId));
-    }
+    [Parameter] public string Heading { get; set; }
+    [Parameter] public string SubHeading { get; set; }
+    [Parameter] public string Author { get; set; }
+    [Parameter] public DateTime PostedDate { get; set; }
 
 #line default
 #line hidden
 #nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private NavigationManager helper { get; set; }
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient client { get; set; }
     }
 }
 #pragma warning restore 1591

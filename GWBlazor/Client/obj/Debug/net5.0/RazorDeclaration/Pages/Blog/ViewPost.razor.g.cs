@@ -105,6 +105,13 @@ using Radzen;
 #nullable disable
 #nullable restore
 #line 2 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\ViewPost.razor"
+using GWBlazor.Client.Component;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 3 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\ViewPost.razor"
 using GWBlazor.Shared;
 
 #line default
@@ -118,7 +125,7 @@ using GWBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 28 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\ViewPost.razor"
+#line 17 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\ViewPost.razor"
        
     [Parameter] public string PostID { get; set; }
 
