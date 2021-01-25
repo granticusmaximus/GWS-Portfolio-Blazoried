@@ -1,0 +1,8 @@
+﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="/" Path="/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/bin/Debug/net5.0/wwwroot/" />
+  <ContentRoot BasePath="/" Path="/Users/grantwatson/Desktop/Dev/GWBlazor/GWS-Portfolio-Blazoried/GWBlazor/Client/obj/Debug/net5.0/scopedcss/bundle/" />
+  <ContentRoot BasePath="_content/Blazored.TextEditor" Path="/Users/grantwatson/.nuget/packages/blazored.texteditor/1.0.3/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="/Users/grantwatson/.nuget/packages/microsoft.aspnetcore.components.webassembly.authentication/5.0.1/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Radzen.Blazor" Path="/Users/grantwatson/.nuget/packages/radzen.blazor/2.18.4/build/../staticwebassets/" />
+  <ContentRoot BasePath="_content/Syncfusion.Blazor" Path="/Users/grantwatson/.nuget/packages/syncfusion.blazor/18.3.0.53/build/../staticwebassets/" />
+</StaticWebAssets>

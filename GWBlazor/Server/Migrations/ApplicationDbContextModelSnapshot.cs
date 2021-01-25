@@ -14,7 +14,7 @@ namespace GWBlazor.Server.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "5.0.0");
+                .HasAnnotation("ProductVersion", "5.0.1");
 
             modelBuilder.Entity("GWBlazor.Shared.ApplicationUser", b =>
                 {
@@ -261,6 +261,29 @@ namespace GWBlazor.Server.Migrations
                         .HasDatabaseName("RoleNameIndex");
 
                     b.ToTable("AspNetRoles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = "8fba21dc-7f80-43b9-8253-ed6fbbc9697b",
+                            ConcurrencyStamp = "b2715321-870d-4d00-a65b-c901296f40ad",
+                            Name = "Viewer",
+                            NormalizedName = "VIEWER"
+                        },
+                        new
+                        {
+                            Id = "6e2ab2c1-6687-418e-bd93-feff6a429232",
+                            ConcurrencyStamp = "b1309902-a509-4610-a586-ac46624f907f",
+                            Name = "Author",
+                            NormalizedName = "AUTHOR"
+                        },
+                        new
+                        {
+                            Id = "fe82f0e7-116a-43c4-8f52-9baac0fb490e",
+                            ConcurrencyStamp = "c778d165-9db6-4ab1-beab-e52da4f83cdf",
+                            Name = "Administrator",
+                            NormalizedName = "ADMINISTRATOR"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

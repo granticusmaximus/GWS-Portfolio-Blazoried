@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/grantwatson/.dotnet/store/|arch|/|tfm|",
-      "/Users/grantwatson/.nuget/packages"
+      "C:\\Users\\grantwatson\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\grantwatson\\.nuget\\packages"
     ]
   }
 }

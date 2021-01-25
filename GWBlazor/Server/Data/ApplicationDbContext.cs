@@ -17,9 +17,10 @@ namespace GWBlazor.Server.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            modelBuilder.Entity<Comment>()
-                .HasOne(p => p.Post)
-                .WithMany(b => b.Comments);
+            modelBuilder.ApplyConfiguration(new RoleConfiguration());
+            //modelBuilder.Entity<Comment>()
+            //    .HasOne(p => p.Post)
+            //    .WithMany(b => b.Comments);
         }
 
 

@@ -103,20 +103,6 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 2 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\Index.razor"
-using GWBlazor.Shared;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
-#line 3 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\Index.razor"
-using GWBlazor.Client.Component;
-
-#line default
-#line hidden
-#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/Blog")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -125,27 +111,6 @@ using GWBlazor.Client.Component;
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 20 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Pages\Blog\Index.razor"
-       
-    protected List<Post> blogPosts { get; set; } = new List<Post>();
-
-    protected override async Task OnInitializedAsync()
-    {
-        await LoadBlogPosts();
-    }
-
-    public async Task LoadBlogPosts()
-    {
-        var blogPostsResponse = await client.GetFromJsonAsync<List<Post>>(Urls.BlogPosts);
-        blogPosts = blogPostsResponse.OrderByDescending(p => p.Posted).ToList();
-    }
-
-
-#line default
-#line hidden
-#nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private HttpClient client { get; set; }
     }
 }
 #pragma warning restore 1591
