@@ -746,11 +746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj",
+      "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj",
       "projectName": "GWBlazor.Shared",
-      "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj",
+      "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj",
       "packagesPath": "C:\\Users\\grantwatson\\.nuget\\packages\\",
-      "outputPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\obj\\",
+      "outputPath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\grantwatson\\AppData\\Roaming\\NuGet\\NuGet.Config",

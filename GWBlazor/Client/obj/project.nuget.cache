@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BAWUXg54PZh6MJoFJ6OL8PadDlg/ZDHIFtMTvkqpjWdKqZHAubUvTgdXHE46/vXC8Wv1hlU4oe51yHqamLmSuw==",
+  "dgSpecHash": "oKMeWqBg0lzHPj7YFFNZrJ16J57+XoIQDUwORN8ghOz6ib0YEH3Cz4gK/BoH8hHDx0prGalh+FGBj33GlVg/oQ==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj",
+  "projectFilePath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\grantwatson\\.nuget\\packages\\blazored.texteditor\\1.0.3\\blazored.texteditor.1.0.3.nupkg.sha512",
     "C:\\Users\\grantwatson\\.nuget\\packages\\microsoft.aspnetcore.authorization\\5.0.1\\microsoft.aspnetcore.authorization.5.0.1.nupkg.sha512",

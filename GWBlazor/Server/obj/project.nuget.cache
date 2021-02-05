@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yVRh+sVMqWzhX1igt+WGzZJHgnx3KJCB9rBSJ8YCCQ5UrPUWkBISXwJ+6ikKWSB/eKy0S6DIsuIcNs6Afdwiaw==",
+  "dgSpecHash": "lO2KmhX9XurP/Dp2c1+3o9T7Fucjm21wZSmIq4j7Hc0Nasf8FgJ2feYmJSrOSupwEBDTizoT/Ai/CLpISekdbA==",
   "success": true,
-  "projectFilePath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Server\\GWBlazor.Server.csproj",
+  "projectFilePath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Server\\GWBlazor.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\grantwatson\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\grantwatson\\.nuget\\packages\\blazored.texteditor\\1.0.3\\blazored.texteditor.1.0.3.nupkg.sha512",

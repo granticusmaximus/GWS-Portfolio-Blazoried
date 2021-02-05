@@ -13,91 +13,91 @@ namespace GWBlazor.Client.Shared
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
 #nullable restore
-#line 1 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 1 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using System.Net.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 2 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 2 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using System.Net.Http.Json;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 3 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 3 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Authorization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 4 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 4 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Forms;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 5 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 5 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Routing;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 6 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 6 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 7 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 7 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.Web.Virtualization;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 8 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 8 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.AspNetCore.Components.WebAssembly.Http;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 9 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 9 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Microsoft.JSInterop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 10 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 10 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using GWBlazor.Client;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 11 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 11 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using GWBlazor.Client.Shared;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 12 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 12 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Radzen.Blazor;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
-#line 13 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\_Imports.razor"
+#line 13 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\_Imports.razor"
 using Radzen;
 
 #line default
@@ -111,7 +111,7 @@ using Radzen;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 23 "\\Mac\Home\Desktop\Dev\GWSBlazored\GWBlazor\Client\Shared\NavMenu.razor"
+#line 28 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\Shared\NavMenu.razor"
        
     private bool collapseNavMenu = true;
 

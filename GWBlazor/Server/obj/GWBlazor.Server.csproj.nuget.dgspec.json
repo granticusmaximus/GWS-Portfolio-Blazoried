@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Server\\GWBlazor.Server.csproj": {}
+    "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Server\\GWBlazor.Server.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj": {
+    "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj",
         "projectName": "GWBlazor.Client",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj",
         "packagesPath": "C:\\Users\\grantwatson\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Client\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grantwatson\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj": {
-                "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj"
+              "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj"
               }
             }
           }
@@ -113,14 +113,14 @@
         }
       }
     },
-    "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Server\\GWBlazor.Server.csproj": {
+    "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Server\\GWBlazor.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Server\\GWBlazor.Server.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Server\\GWBlazor.Server.csproj",
         "projectName": "GWBlazor.Server",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Server\\GWBlazor.Server.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Server\\GWBlazor.Server.csproj",
         "packagesPath": "C:\\Users\\grantwatson\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Server\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grantwatson\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -138,11 +138,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj": {
-                "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj"
+              "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Client\\GWBlazor.Client.csproj"
               },
-              "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj": {
-                "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj"
+              "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj": {
+                "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj"
               }
             }
           }
@@ -222,14 +222,14 @@
         }
       }
     },
-    "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj": {
+    "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj",
+        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj",
         "projectName": "GWBlazor.Shared",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj",
+        "projectPath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Shared\\GWBlazor.Shared.csproj",
         "packagesPath": "C:\\Users\\grantwatson\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\Dev\\GWSBlazored\\GWBlazor\\Shared\\obj\\",
+        "outputPath": "\\\\Mac\\Home\\Desktop\\Dev\\Blazor\\GWSBlazored\\GWBlazor\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\grantwatson\\AppData\\Roaming\\NuGet\\NuGet.Config",
