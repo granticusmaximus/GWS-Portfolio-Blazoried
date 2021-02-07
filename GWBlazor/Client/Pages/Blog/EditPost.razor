@@ -1,0 +1,30 @@
+﻿
+@page "/Blog/edit/{postId:int}"
+@using GWBlazor.Shared
+@using GWBlazor.Client.Component.Blog
+@inject HttpClient http
+@inject NavigationManager uriHelper
+@inject IJSRuntime js
+
+<h3>Edit Post</h3>
+
+<Form ButtonText="Update" dev="dev"
+      OnValidSubmit="@EditDeveloper" />
+
+@code {
+    [Parameter] public int postID { get; set; }
+    Post post = new Post();
+
+    protected async override Task OnParametersSetAsync()
+    {
+        post = await http.GetFromJsonAsync<Post>($"api/Blog/UpdatePost/{postID}");
+    }
+
+    async Task EditDeveloper()
+    {
+        await http.PutAsJsonAsync("api/Blog/UpdatePost", post);
+        await js.InvokeVoidAsync("alert", $"Updated Successfully!");
+        uriHelper.NavigateTo("developer");
+
+    }
+}

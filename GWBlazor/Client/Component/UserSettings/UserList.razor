@@ -1,21 +1,16 @@
-﻿@page "/userlist"
-@using GWBlazor.Shared
+﻿@using GWBlazor.Shared
 @inject HttpClient client
 @inject IJSRuntime js
 
-<h3>User List</h3>
+<hr />
 <div class="form-group">
     <a class="btn btn-success" href="user/create"><i class="oi oi-plus"></i> Create New</a>
 </div>
 <br>
 
-@if (users == null)
+@if (usersList == null)
 {
-    <text>Loading User List...</text>
-}
-else if (users.Length == 0)
-{
-    <text>No User Records Found.</text>
+    <p>Loading User List...</p>
 }
 else
 {
@@ -30,7 +25,7 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (ApplicationUser user in users)
+            @foreach (ApplicationUser user in usersList)
             {
                 <tr>
                     <td>@user.Id</td>
@@ -48,16 +43,16 @@ else
     </table>
 }
 @code {
-    ApplicationUser[] users { get; set; }
+    ApplicationUser[] usersList { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        users = await client.GetFromJsonAsync<ApplicationUser[]>("api/User/GetAllUsers");
+        usersList = await client.GetFromJsonAsync<ApplicationUser[]>("api/User/GetAllUsers");
     }
 
     async Task Delete(string userID)
     {
-        var user = users.First(x => x.Id == userID);
+        var user = usersList.First(x => x.Id == userID);
         if (await js.InvokeAsync<bool>("confirm", $"Do you want to delete {user.FirstName}'s ({user.Id}) Record?"))
         {
             await client.DeleteAsync($"api/User/DeleteUser/{userID}");

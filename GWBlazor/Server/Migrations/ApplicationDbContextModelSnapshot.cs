@@ -123,9 +123,6 @@ namespace GWBlazor.Server.Migrations
                     b.Property<DateTime>("Posted")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("Slug")
-                        .HasColumnType("TEXT");
-
                     b.Property<string>("Title")
                         .HasColumnType("TEXT");
 
@@ -265,22 +262,22 @@ namespace GWBlazor.Server.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "8fba21dc-7f80-43b9-8253-ed6fbbc9697b",
-                            ConcurrencyStamp = "b2715321-870d-4d00-a65b-c901296f40ad",
+                            Id = "992ea004-48ad-4375-96c2-f3cb0ca04256",
+                            ConcurrencyStamp = "9b396bcd-1434-41fe-a95c-d29081130b12",
                             Name = "Viewer",
                             NormalizedName = "VIEWER"
                         },
                         new
                         {
-                            Id = "6e2ab2c1-6687-418e-bd93-feff6a429232",
-                            ConcurrencyStamp = "b1309902-a509-4610-a586-ac46624f907f",
+                            Id = "b9275d20-7293-4997-8f82-4df1d6f1193a",
+                            ConcurrencyStamp = "3d73d2ce-6fae-469f-82ef-457bc9b99820",
                             Name = "Author",
                             NormalizedName = "AUTHOR"
                         },
                         new
                         {
-                            Id = "fe82f0e7-116a-43c4-8f52-9baac0fb490e",
-                            ConcurrencyStamp = "c778d165-9db6-4ab1-beab-e52da4f83cdf",
+                            Id = "c2a7a8c7-80a7-4919-b2a3-98e5729da184",
+                            ConcurrencyStamp = "14470b23-4ee9-4fb6-a37d-13cb7c538c2a",
                             Name = "Administrator",
                             NormalizedName = "ADMINISTRATOR"
                         });

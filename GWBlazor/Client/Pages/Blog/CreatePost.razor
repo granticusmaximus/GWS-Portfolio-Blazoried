@@ -1,0 +1,19 @@
+﻿@page "/Blog/create"
+@using GWBlazor.Shared 
+@using GWBlazor.Client.Component.Blog 
+@inject HttpClient http
+@inject NavigationManager uriHelper
+
+<h3>Add New Post</h3>
+
+<Form ButtonText="Create Post" dev="@post"
+      OnValidSubmit="@CreateNewPost" />
+
+@code {
+    Post post = new Post();
+    async Task CreateNewPost()
+    {
+        await http.PostAsJsonAsync("api/Blog/AddPost", post);
+        uriHelper.NavigateTo("/Blog");
+    }
+}

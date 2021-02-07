@@ -1,0 +1,50 @@
+﻿@using GWBlazor.Shared
+<EditForm Model="@post" OnValidSubmit="@OnValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <label>Post Title:</label>
+        <div>
+            <InputText @bind-Value="@post.Title" />
+            <ValidationMessage For="@(() => post.Title)" />
+        </div>
+    </div>
+    <div class="form-group ">
+        <div>
+            <label>Date Create :</label>
+            <div>
+                <InputDate @bind-Value="@post.DateUpdated" />
+                <ValidationMessage For="@(() => post.DateUpdated)" />
+            </div>
+        </div>
+    </div>
+    <div class="form-group ">
+        <div>
+            <label>Content :</label>
+            <div>
+                <InputTextArea @bind-Value="@post.Content" />
+                <ValidationMessage For="@(() => post.Content)" />
+            </div>
+        </div>
+    </div>
+    <div class="form-group ">
+        <div>
+            <label>Author :</label>
+            <div>
+                <InputNumber @bind-Value="@post.Author" />
+                <ValidationMessage For="@(() => post.Author)" />
+            </div>
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        @ButtonText
+    </button>
+
+</EditForm>
+
+
+@code {
+    [Parameter] public Post post { get; set; }
+    [Parameter] public string ButtonText { get; set; } = "Save";
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+}
