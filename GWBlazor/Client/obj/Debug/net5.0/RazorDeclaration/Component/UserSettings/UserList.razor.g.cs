@@ -104,12 +104,13 @@ using Radzen;
 #line hidden
 #nullable disable
 #nullable restore
-#line 1 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\Component\UserSettings\UserList.razor"
+#line 2 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\Component\UserSettings\UserList.razor"
 using GWBlazor.Shared;
 
 #line default
 #line hidden
 #nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/userlist")]
     public partial class UserList : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -118,18 +119,18 @@ using GWBlazor.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 45 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\Component\UserSettings\UserList.razor"
+#line 50 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\Component\UserSettings\UserList.razor"
        
-    ApplicationUser[] usersList { get; set; }
+    ApplicationUser[] users { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        usersList = await client.GetFromJsonAsync<ApplicationUser[]>("api/User/GetAllUsers");
+        users = await client.GetFromJsonAsync<ApplicationUser[]>("api/User/GetAllUsers");
     }
 
     async Task Delete(string userID)
     {
-        var user = usersList.First(x => x.Id == userID);
+        var user = users.First(x => x.Id == userID);
         if (await js.InvokeAsync<bool>("confirm", $"Do you want to delete {user.FirstName}'s ({user.Id}) Record?"))
         {
             await client.DeleteAsync($"api/User/DeleteUser/{userID}");

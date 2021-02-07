@@ -38,7 +38,6 @@
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Shared\bin\Debug\net5.0\GWBlazor.Shared.dll
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Shared\bin\Debug\net5.0\ref\GWBlazor.Shared.dll
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Shared\bin\Debug\net5.0\GWBlazor.Shared.pdb
-\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Shared\obj\Debug\net5.0\GWBlazor.Shared.csprojAssemblyReference.cache
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Shared\obj\Debug\net5.0\GWBlazor.Shared.GeneratedMSBuildEditorConfig.editorconfig
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Shared\obj\Debug\net5.0\GWBlazor.Shared.AssemblyInfoInputs.cache
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Shared\obj\Debug\net5.0\GWBlazor.Shared.AssemblyInfo.cs
@@ -46,3 +45,4 @@
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Shared\obj\Debug\net5.0\GWBlazor.Shared.dll
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Shared\obj\Debug\net5.0\ref\GWBlazor.Shared.dll
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Shared\obj\Debug\net5.0\GWBlazor.Shared.pdb
+\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Shared\obj\Debug\net5.0\GWBlazor.Shared.csprojAssemblyReference.cache
