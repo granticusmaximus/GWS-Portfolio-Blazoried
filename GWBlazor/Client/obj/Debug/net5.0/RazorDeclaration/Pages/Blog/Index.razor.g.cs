@@ -103,6 +103,13 @@ using Radzen;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\Pages\Blog\Index.razor"
+using GWBlazor.Client.Component.Blog;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/Blog")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {

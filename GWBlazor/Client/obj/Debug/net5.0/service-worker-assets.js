@@ -597,7 +597,7 @@
       "url": "_content\/Blazored.TextEditor\/quill-blot-formatter.min.js"
     },
     {
-      "hash": "sha256-clomuXIL23ym3c1dmL6GgYKdS3\/Q3GiWAXJPjWE3lWg=",
+      "hash": "sha256-wzxBHa83shv7MagubG11RMT+9cp\/GdQAawZ46IuNFEo=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1497,11 +1497,11 @@
       "url": "_framework\/GWBlazor.Shared.pdb"
     },
     {
-      "hash": "sha256-m7FA+U22E5wJI87YIsZVBba79IE8O+4LM5k77aaYOLc=",
+      "hash": "sha256-VfoAahDG6k1MfRT1dAXUAjD\/llZlkytXknniTmEYaQ8=",
       "url": "_framework\/GWBlazor.Client.dll"
     },
     {
-      "hash": "sha256-2nFngLXWbwD7cYhGHz+tixezgoEuPWEDP3dORLOHwWE=",
+      "hash": "sha256-k1bwZb\/17e\/OaIoRa1PzYrEhLMYzWr7RP\/qh\/pAZ0\/c=",
       "url": "_framework\/GWBlazor.Client.pdb"
     },
     {
@@ -2485,5 +2485,5 @@
       "url": "GWBlazor.Client.bundle.scp.css"
     }
   ],
-  "version": "0DMR3XaR"
+  "version": "RWTpmVWp"
 };

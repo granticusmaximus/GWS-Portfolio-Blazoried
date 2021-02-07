@@ -1,0 +1,61 @@
+﻿@inject HttpClient client
+@inject IJSRuntime js
+@using GWBlazor.Shared
+@using GWBlazor.Client.Component.Blog
+
+<h3>Posts</h3>
+<div class="form-group">
+    <a class="btn btn-success" href="Blog/create"><i class="oi oi-plus"></i> Create New</a>
+</div>
+<br>
+
+@if (posts == null)
+{
+    <text>Loading...</text>
+}
+else if (posts.Length == 0)
+{
+    <text>No Records Found.</text>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Content</th>
+                <th>Date Posted</th>
+                <th>Author</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Post dev in posts)
+            {
+                <tr>
+                    <td>@dev.Title</td>
+                    <td>@dev.Content</td>
+                    <td>@dev.DateUpdated</td>
+                    <td>@dev.Author</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+@code {
+    Post[] posts { get; set; }
+    protected override async Task OnInitializedAsync()
+    {
+        posts = await client.GetFromJsonAsync<Post[]>("api/Blog/GetAllPosts");
+    }
+
+    async Task Delete(int postID)
+    {
+        var post = posts.First(x => x.PostID == postID);
+        if (await js.InvokeAsync<bool>("confirm", $"Do you want to delete {post.Title}'s ({post.PostID}) Record?"))
+        {
+            await client.DeleteAsync($"api/developer/{postID}");
+            await OnInitializedAsync();
+        }
+    }
+}

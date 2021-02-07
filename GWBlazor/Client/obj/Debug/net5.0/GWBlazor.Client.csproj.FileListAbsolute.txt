@@ -2632,8 +2632,6 @@
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\GWBlazor.Client.MvcApplicationPartsAssemblyInfo.cache
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\GWBlazor.Client.RazorComponent.input.cache
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\RazorDeclaration\Component\Blog\AddPost.razor.g.cs
-\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\RazorDeclaration\Component\Blog\WdHeader.razor.g.cs
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\RazorDeclaration\Component\UserSettings\UserList.razor.g.cs
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Authentication.razor.g.cs
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Blog\Index.razor.g.cs
@@ -2651,8 +2649,6 @@
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\GWBlazor.Client.TagHelpers.output.cache
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\GWBlazor.Client.RazorCoreGenerate.cache
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\Razor\App.razor.g.cs
-\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\Razor\Component\Blog\AddPost.razor.g.cs
-\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\Razor\Component\Blog\WdHeader.razor.g.cs
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\Razor\Component\UserSettings\UserList.razor.g.cs
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\Razor\Pages\Authentication.razor.g.cs
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\Razor\Pages\Blog\Index.razor.g.cs
@@ -2900,3 +2896,11 @@
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\GWBlazor.Client.pdb
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\serviceworkers\wwwroot\service-worker.js
 \\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\service-worker-assets.js
+\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\RazorDeclaration\Component\Blog\Form.razor.g.cs
+\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\RazorDeclaration\Component\Blog\List.razor.g.cs
+\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Blog\CreatePost.razor.g.cs
+\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Blog\EditPost.razor.g.cs
+\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\Razor\Component\Blog\Form.razor.g.cs
+\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\Razor\Component\Blog\List.razor.g.cs
+\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\Razor\Pages\Blog\CreatePost.razor.g.cs
+\\Mac\Home\Desktop\Dev\Blazor\GWSBlazored\GWBlazor\Client\obj\Debug\net5.0\Razor\Pages\Blog\EditPost.razor.g.cs
